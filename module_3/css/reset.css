@@ -19,7 +19,7 @@ a:link, a:visited, ins {
     text-decoration: none;
 }
 a:visited {
-    color: #505;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
