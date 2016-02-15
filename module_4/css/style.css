@@ -1,8 +1,9 @@
 body {
     
-	background: url("../img/bg.png");
+    background: url("../img/bg.png");
     background-repeat: repeat-x;
     background-attachment: fixed;
+    overflow-x:hidden;
 }
 
 .main {
