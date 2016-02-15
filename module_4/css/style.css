@@ -1,0 +1,169 @@
+body {
+    
+	background: url("../img/bg.png");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+.main {
+    width: 1000px;
+    height: 888px;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+}
+
+header {
+
+	width: 1000px;
+	height: 450px;
+}
+
+.logo {
+    position: relative; /* oтносительное позиционирование */
+    top: 35px; /* Положение от верхнего края */
+    left: 30px;
+}
+
+.header-photo {
+	width: 1000px;
+	height: 173px;
+	position: relative; /* oтносительное позиционирование */
+    top: -110px; /* Положение от верхнего края */  
+}
+
+.contacts {
+    position: relative; /* oтносительное позиционирование */
+    top: -150px; /* Положение от верхнего края */
+    left: 750px;
+    color:#5fa5bb;
+}
+
+.countri li {
+    float: left;
+    list-style: none;
+    padding:0;
+    margin:0;
+    position: relative; /* oтносительное позиционирование */
+    top: -130px; /* Положение от верхнего края */
+    left: 670px;
+    margin-right: 5px;
+}
+
+/*Horizont menu*/
+menu {
+    position: static; 
+	height: 40px;
+    margin: 0;
+    padding: 0;
+    background:#303030;
+
+ }
+
+menu li {
+    float: left;
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-right: 15px;  /*делаем отступ чтобы пункты меню не сливались */
+    color:white;
+}
+    
+menu .active a {
+    background:#464646;
+    text-decoration:none;
+}
+
+.main-menu > li {
+    margin-right: -4px;
+    position: relative;
+    padding:0;
+    margin:0;
+    margin-right: 25px;  /*делаем отступ чтобы пункты меню не сливались */
+    margin-left: 25px; 
+}
+
+.main-menu a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+    color: white;
+}
+
+.main-menu a:hover {
+    background:#464646;
+    text-decoration:none;
+}
+
+.main-menu .sub-menu {
+    position: absolute;
+    left: 1px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #303030;
+    display:none;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+}
+
+.main-menu .sub-menu a {
+    margin-bottom: -1px;
+}
+
+.main-menu > li:hover .sub-menu {
+    display:block;
+
+}
+
+.content {
+	width: 1000px;
+    overflow: hidden; /* чтобы лишее обрезалось */
+}
+
+.information {
+	background: #edeef0;
+	float: left;
+	width: 20%;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    padding-left: 10px;
+}
+
+.news {
+	background: #edeef0;
+	float: right;
+	width: 20%;
+    padding-bottom: 20000px;
+    padding-left: 10px;  
+    margin-bottom: -20000px;
+}
+.main-cont {
+	float: left;
+	width: 60%;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+h2 {
+    text-align: center;
+    font: 12pt Verdana, sans-serif;
+}
+
+p {
+  font: 12pt Verdana, sans-serif;  
+}
+
+footer {
+    height: 40px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
