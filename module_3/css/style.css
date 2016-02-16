@@ -22,7 +22,7 @@ menu {
     height: 40px;
     margin: 0;
     padding: 0;
-    background:#575656;
+    background: linear-gradient(to top, #313131, #494949);
  }
 
 menu li {
@@ -45,6 +45,8 @@ menu a {
 menu .active a {
     background:#464646;
     text-decoration:none;
+    border-left: 0.5px solid white;
+    border-right: 0.5px solid white;
 }
 
 
@@ -65,7 +67,9 @@ menu a:hover {
 .menu-left a {
     display: block;
     background-color:white;
-    border:1px solid #c8c8c8;
+    border-left:1px solid #c8c8c8;
+    border-right:1px solid #c8c8c8;
+    border-bottom:1px solid #c8c8c8;
     color:#c8c8c8;
     padding:10px 15px;
     text-decoration:none;
