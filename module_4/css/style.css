@@ -92,7 +92,7 @@ menu .active a {
 }
 
 .main-menu a:hover {
-    background:#464646;
+    /*background:#464646;*/
     text-decoration:none;
 }
 
