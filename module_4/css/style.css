@@ -1,14 +1,11 @@
 body {
-    
     background: url("../img/bg.png");
     background-repeat: repeat-x;
-    background-attachment: fixed;
     overflow-x:hidden;
 }
 
 .main {
     width: 1000px;
-    height: 888px;
     margin: 0 auto;
     background: white;
     margin-bottom: 5px;
@@ -123,8 +120,16 @@ menu .active a {
 }
 
 .content {
-	width: 1000px;
+    width: 1000px;
     overflow: hidden; /* чтобы лишее обрезалось */
+}
+
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
 }
 
 .information {
