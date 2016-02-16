@@ -13,7 +13,7 @@ body, code, dl, dd, form, pre {
     margin: 0;
 }
 a:link {
-    color: #009;
+    color: white;
 }
 a:link, a:visited, ins {
     text-decoration: none;
