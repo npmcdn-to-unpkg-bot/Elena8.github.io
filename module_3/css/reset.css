@@ -12,7 +12,7 @@ body, optgroup {
 body, code, dl, dd, form, pre {
     margin: 0;
 }
-a:link {
+/*a:link {
     color: #009;
 }
 a:link, a:visited, ins {
@@ -25,8 +25,8 @@ a:hover {
     text-decoration: underline;
 }
 a:link img, a:visited img, object, fieldset, abbr, acronym {
-    border: none;
-}
+    border: none;*/
+}*/
 sub, sup {
     position: relative;
     display: inline-block;
