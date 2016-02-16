@@ -171,6 +171,7 @@ footer {
 }
 
 footer p {
+    font: 12px/20px arial, sans-serif;
     text-align: center;
     color: white;
 }
