@@ -74,6 +74,9 @@ menu a:hover {
     padding:10px 15px;
     text-decoration:none;
 }
+.menu-left a:nth-child(1){
+  border-top:1px solid #c8c8c8;   
+}
 
 .menu-left .active1 a {
     background:#F5F5F5;
