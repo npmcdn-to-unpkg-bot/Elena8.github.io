@@ -27,7 +27,7 @@ a:hover {
 a:link img, a:visited img, object, fieldset, abbr, acronym {
     border: none;
 }
-sub, sup {
+/*sub, sup {
     position: relative;
     display: inline-block;
     font-size: 11px;
@@ -51,9 +51,9 @@ address, cite, dfn {
 code, pre {
     white-space: pre-wrap;
 }
-/*img {
+img {
     vertical-align: bottom;
-}*/
+}
 td, th, textarea {
     vertical-align: top;
 }
@@ -65,7 +65,7 @@ legend {
     color: #000;
     margin: 0 0 -2px;
     padding: 0;
-}
+}*/
 li {
     display: block;
     list-style: none;
