@@ -17,7 +17,7 @@ body, code, dl, dd, form, pre {
 }
 a:link, a:visited, ins {
     text-decoration: none;
-}
+}*/
 a:visited {
     color: white;
 }
@@ -26,7 +26,7 @@ a:hover {
 }
 a:link img, a:visited img, object, fieldset, abbr, acronym {
     border: none;*/
-}*/
+}
 sub, sup {
     position: relative;
     display: inline-block;
