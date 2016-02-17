@@ -27,11 +27,18 @@ header {
 }
 
 .header-photo {
+<<<<<<< HEAD:module_4_2/css/style.css
     float: left;
     width: 1000px;
     height: 173px;
     position: relative; /* oтносительное позиционирование */
     top: -40px; /* Положение от верхнего края */  
+=======
+	width: 1000px;
+	height: 173px;
+	position: relative; /* oтносительное позиционирование */
+    top: -114px; /* Положение от верхнего края */  
+>>>>>>> origin/master:module_4/css/style.css
 }
 
 .contacts {
@@ -107,6 +114,13 @@ menu .active a {
     margin-left: -1px;
     padding: 8px 10px;
     color: white;
+<<<<<<< HEAD:module_4_2/css/style.css
+=======
+}
+
+.main-menu a:hover {
+    /*background:#464646;*/
+>>>>>>> origin/master:module_4/css/style.css
     text-decoration:none;
     font: 14px arial, sans-serif;
 }
