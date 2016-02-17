@@ -141,11 +141,12 @@ text-decoration:none;
 
 .main-menu .sub-menu a {
     margin-bottom: -1px;
+    font: 14px arial, sans-serif;
 }
 
 .main-menu > li:hover .sub-menu {
     display:block;
-
+    font: 14px arial, sans-serif;
 }
 
 /*подменю Услуги*/
@@ -165,11 +166,12 @@ text-decoration:none;
 
 .main-menu .sub-menu1 a {
     margin-bottom: -1px;
+    font: 14px arial, sans-serif;
 }
 
 .main-menu > li:hover .sub-menu1 {
     display:block;
-
+    font: 14px arial, sans-serif;
 }
 
 .content {
