@@ -36,7 +36,7 @@ header {
     width: 1000px;
     height: 173px;
     position: relative; /* oтносительное позиционирование */
-    top: -114px; /* Положение от верхнего края */  
+    top: -40px; /* Положение от верхнего края */  
 
 }
 
@@ -113,7 +113,7 @@ menu .active a {
     margin-left: -1px;
     padding: 8px 10px;
     color: white;
-
+text-decoration:none;
 }
 
 .main-menu a:hover {
