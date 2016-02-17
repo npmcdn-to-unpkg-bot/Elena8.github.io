@@ -113,13 +113,6 @@ menu .active a {
     margin-left: -1px;
     padding: 8px 10px;
     color: white;
-text-decoration:none;
-font: 14px arial, sans-serif;
-}
-
-.main-menu a:hover {
-    /*background:#464646;*/
-
     text-decoration:none;
     font: 14px arial, sans-serif;
 }
