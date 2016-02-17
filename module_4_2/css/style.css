@@ -1,14 +1,11 @@
 body {
-        background: url("../img/bg.png");
+    background: url("../img/bg.png");
     background-repeat: repeat-x;
-    /*background-attachment: fixed;*/
     overflow-x:hidden;
-
 }
 
 .main {
     width: 1000px;
-    /*height: 888px;*/
     margin: 0 auto;
     background: white;
     margin-bottom: 5px;
@@ -19,8 +16,8 @@ body {
 
 header {
 
-	width: 1000px;
-	height: 450px;
+    width: 1000px;
+    height: 450px;
 }
 
 .logo {
@@ -30,17 +27,26 @@ header {
 }
 
 .header-photo {
-	width: 1000px;
-	height: 173px;
-	position: relative; /* oтносительное позиционирование */
-    top: -110px; /* Положение от верхнего края */  
+    float: left;
+    width: 1000px;
+    height: 173px;
+    position: relative; /* oтносительное позиционирование */
+    top: -40px; /* Положение от верхнего края */  
 }
 
 .contacts {
     position: relative; /* oтносительное позиционирование */
-    top: -150px; /* Положение от верхнего края */
-    left: 750px;
-    color:#5fa5bb;
+    float: right;
+    right: 50px;
+    color:#128aa7;
+    top:10px;
+}
+
+.countri {
+    position: relative;
+    top: -40px; /* Положение от верхнего края */
+    left: 650px;
+
 }
 
 .countri li {
@@ -49,15 +55,24 @@ header {
     padding:0;
     margin:0;
     position: relative; /* oтносительное позиционирование */
-    top: -130px; /* Положение от верхнего края */
-    left: 670px;
-    margin-right: 5px;
 }
+
+.countri li a {
+    margin-right: 10px;
+}
+
+.countri li p a {
+    font:10px arial, sans-serif,bold;
+    color:#128aa7;
+    text-decoration:underline;
+    text-align: center;
+}
+
 
 /*Horizont menu*/
 menu {
     position: static; 
-	height: 40px;
+    height: 40px;
     margin: 0;
     padding: 0;
     background:#303030;
@@ -83,8 +98,8 @@ menu .active a {
     position: relative;
     padding:0;
     margin:0;
-    margin-right: 25px;  /*делаем отступ чтобы пункты меню не сливались */
-    margin-left: 25px; 
+    margin-right: 15px;  /*делаем отступ чтобы пункты меню не сливались */
+    margin-left: 15px; 
 }
 
 .main-menu a {
@@ -92,13 +107,12 @@ menu .active a {
     margin-left: -1px;
     padding: 8px 10px;
     color: white;
-}
-
-.main-menu a:hover {
-    background:#464646;
     text-decoration:none;
+    font: 14px arial, sans-serif;
 }
 
+
+/*Подменю путешествия*/
 .main-menu .sub-menu {
     position: absolute;
     left: 1px;
@@ -110,7 +124,7 @@ menu .active a {
     display:none;
     -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
     -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
-   box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
 }
 
 .main-menu .sub-menu a {
@@ -122,12 +136,35 @@ menu .active a {
 
 }
 
-.content {
-	width: 1000px;
-    /*position: relative;*/
-    overflow: hidden; /* чтобы лишее обрезалось */
+/*подменю Услуги*/
+.main-menu .sub-menu1 {
+    position: absolute;
+    left: 1px;
+    width: 115px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #303030;
+    display:none;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+}
+
+.main-menu .sub-menu1 a {
+    margin-bottom: -1px;
+}
+
+.main-menu > li:hover .sub-menu1 {
+    display:block;
 
 }
+
+.content {
+    width: 1000px;
+    overflow: hidden; /* чтобы лишее обрезалось */
+}
+
 .clearfix:after{
     content: '';
     clear: both;
@@ -137,46 +174,45 @@ menu .active a {
 }
 
 .information {
-	background: #edeef0;
-	float: left;
-	width: 20%;
+    background: #edeef0;
+    float: left;
+    width: 20%;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
     padding-left: 10px;
 }
 
 .news {
-	background: #edeef0;
-	float: right;
-	width: 20%;
+    background: #edeef0;
+    float: right;
+    width: 20%;
     padding-bottom: 20000px;
     padding-left: 10px;  
     margin-bottom: -20000px;
 }
 .main-cont {
-	float: left;
-    background: white;
-	width: 60%;
+    float: left;
+    width: 60%;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
 }
 
 h2 {
     text-align: center;
-    font: 12pt Verdana, sans-serif;
+    font: bold 18px/24px arial,sans-serif;
 }
 
 p {
-  font: 12pt Verdana, sans-serif;  
+  font: 15px/20px arial, sans-serif;
+  text-align: justify; 
 }
 
 footer {
     height: 40px;
-    /*background: transparent;
-    clear:right;*/
 }
 
 footer p {
+    font: 12px/20px arial, sans-serif;
     text-align: center;
     color: white;
 }
