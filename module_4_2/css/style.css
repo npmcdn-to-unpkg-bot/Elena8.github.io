@@ -114,6 +114,7 @@ menu .active a {
     padding: 8px 10px;
     color: white;
 text-decoration:none;
+font: 14px arial, sans-serif;
 }
 
 .main-menu a:hover {
