@@ -1,3 +1,230 @@
+/*body {
+    background: url("../img/bg.png");
+    background-repeat: repeat-x;
+    overflow-x:hidden;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+}
+
+header {
+
+    width: 1000px;
+    height: 450px;
+}
+
+.logo {
+    position: relative; /* oтносительное позиционирование */
+   /* top: 35px; /* Положение от верхнего края */
+    /*left: 30px;
+}
+
+.header-photo {
+
+    float: left;
+    width: 1000px;
+    height: 173px;
+    position: relative; /* oтносительное позиционирование */
+    /*top: -40px; /* Положение от верхнего края */  
+    /*width: 1000px;
+    height: 173px;
+    position: relative; 
+    top: -40px; 
+
+}
+
+.contacts {
+    position: relative; 
+    float: right;
+    right: 50px;
+    color:#128aa7;
+    top:10px;
+}
+
+.countri {
+    position: relative;
+    top: -40px;
+    left: 650px;
+
+}
+
+.countri li {
+    float: left;
+    list-style: none;
+    padding:0;
+    margin:0;
+    position: relative; 
+}
+
+.countri li a {
+    margin-right: 10px;
+}
+
+.countri li p a {
+    font:10px arial, sans-serif,bold;
+    color:#128aa7;
+    text-decoration:underline;
+    text-align: center;
+}
+
+
+
+menu {
+    position: static; 
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background:#303030;
+
+ }
+
+menu li {
+    float: left;
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-right: 15px;  
+    color:white;
+}
+    
+menu .active a {
+    background:#464646;
+    text-decoration:none;
+}
+
+.main-menu > li {
+    margin-right: -4px;
+    position: relative;
+    padding:0;
+    margin:0;
+    margin-right: 15px;  
+    margin-left: 15px; 
+}
+
+.main-menu a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+    color: white;
+    text-decoration:none;
+    font: 14px arial, sans-serif;
+}
+
+
+
+.main-menu .sub-menu {
+    position: absolute;
+    left: 1px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #303030;
+    display:none;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+}
+
+.main-menu .sub-menu a {
+    margin-bottom: -1px;
+    font: 14px arial, sans-serif;
+}
+
+.main-menu > li:hover .sub-menu {
+    display:block;
+    font: 14px arial, sans-serif;
+}
+
+
+.main-menu .sub-menu1 {
+    position: absolute;
+    left: 1px;
+    width: 115px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #303030;
+    display:none;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+}
+
+.main-menu .sub-menu1 a {
+    margin-bottom: -1px;
+    font: 14px arial, sans-serif;
+}
+
+.main-menu > li:hover .sub-menu1 {
+    display:block;
+    font: 14px arial, sans-serif;
+}
+
+.content {
+    width: 1000px;
+    overflow: hidden; 
+}
+
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+.information {
+    background: #edeef0;
+    float: left;
+    width: 20%;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    padding-left: 10px;
+}
+
+.news {
+    background: #edeef0;
+    float: right;
+    width: 20%;
+    padding-bottom: 20000px;
+    padding-left: 10px;  
+    margin-bottom: -20000px;
+}
+.main-cont {
+    float: left;
+    width: 60%;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+h2 {
+    text-align: center;
+    font: bold 18px/24px arial,sans-serif;
+}
+
+p {
+  font: 15px/20px arial, sans-serif;
+  text-align: justify; 
+}
+
+footer {
+    height: 40px;
+}
+
+footer p {
+    font: 12px/20px arial, sans-serif;
+    text-align: center;
+    color: white;
+}*/
+
 body {
     background: url("../img/bg.png");
     background-repeat: repeat-x;
@@ -27,17 +254,11 @@ header {
 }
 
 .header-photo {
-
     float: left;
     width: 1000px;
     height: 173px;
     position: relative; /* oтносительное позиционирование */
-    top: -40px; /* Положение от верхнего края */  
-    width: 1000px;
-    height: 173px;
-    position: relative; /* oтносительное позиционирование */
-    top: -40px; /* Положение от верхнего края */  
-
+    top: -61px; /* Положение от верхнего края */  
 }
 
 .contacts {
@@ -50,21 +271,23 @@ header {
 
 .countri {
     position: relative;
-    top: -40px; /* Положение от верхнего края */
-    left: 650px;
-
+    top: -70px; /* Положение от верхнего края */
+    left: 600px;
+    margin: 25px 10px 5px;
 }
 
 .countri li {
     float: left;
     list-style: none;
-    padding:0;
+    margin-right: 20px;
+    /*padding:0;
     margin:0;
-    position: relative; /* oтносительное позиционирование */
+    position: relative;  oтносительное позиционирование */
+    text-align: center;
 }
 
 .countri li a {
-    margin-right: 10px;
+    /*margin-right: 10px;*/
 }
 
 .countri li p a {
@@ -72,6 +295,8 @@ header {
     color:#128aa7;
     text-decoration:underline;
     text-align: center;
+    /*padding-left: 5px;
+    padding-right: 5px;*/
 }
 
 
@@ -191,7 +416,7 @@ menu .active a {
 }
 
 .news {
-    background: #edeef0;
+    background:#edeef0;
     float: right;
     width: 20%;
     padding-bottom: 20000px;
@@ -210,9 +435,17 @@ h2 {
     font: bold 18px/24px arial,sans-serif;
 }
 
-p {
+.inf, .ne {
   font: 15px/20px arial, sans-serif;
   text-align: justify; 
+  color: #7d837f;
+}
+.information {
+    border-right:1px solid #c7cacf;
+}
+
+.news {
+    border-left:1px solid #c7cacf;
 }
 
 footer {
@@ -224,3 +457,4 @@ footer p {
     text-align: center;
     color: white;
 }
+
