@@ -8,22 +8,21 @@ body {
     min-height: 750px;
     margin: 0 auto;
     padding: 30px;
-	background: white;
+    background: white;
     -webkit-box-shadow: 0px -1px 14px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -1px 14px -1px rgba(0,0,0,0.75);
     box-shadow: 0px -1px 14px -1px rgba(0,0,0,0.75);
 }
 
 header {
-	height: 80px;
+    height: 80px;
 	
 }
   
 /*Horizont menu*/
 menu {
     position: static;
-
-	height: 40px;
+    height: 40px;
     margin: 0;
     padding: 0;
     background:linear-gradient(to top, #454444, #5d5d5d);
@@ -46,12 +45,9 @@ menu a {
     text-decoration:none;
     color: white;
     font: 14px arial, sans-serif;
-    border-left: 0.1px solid #454444;
-    border-right: 0.1px solid #454444;
+    border-left: 0.1px solid transparent;
+    border-right: 0.1px solid transparent;
 }
-
-
-
 
 menu a:hover {
     background:#464646;
@@ -83,15 +79,11 @@ menu a:hover {
     border-top:1px solid #c8c8c8;
 }
 
-/*.menu-left .active1 a {
-    background:#F5F5F5;
-    text-decoration:none;
-    color:black;
-}*/
 
 .menu-left a:hover {
     background :#F5F5F5;
     color:black;
+    padding-left: 30px;
 }
 
 .content {
@@ -102,9 +94,9 @@ menu a:hover {
     background-color: white;
 }
 .wrap {
-	min-height: 540px;
-	width: 760px;
-	float:left;
+    min-height: 540px;
+    width: 760px;
+    float:left;
 }
 
 .bike {
@@ -121,7 +113,7 @@ menu a:hover {
 
 /*Footer and footer-menu*/
 footer {
-	height: 40px;
+    height: 40px;
     margin: 0;
     padding: 0;
     background:#e1e1e1;
@@ -149,15 +141,6 @@ footer a {
     font: 14px/18px arial, sans-serif;
 }
 
-/*footer a:visited {
-    background:#464646;
-    text-decoration:none;
-    color:black;
-}
-
-footer .active3 a {
-    text-decoration:underline;
-}*/
 
 footer a:hover {
     text-decoration:underline;
@@ -165,7 +148,7 @@ footer a:hover {
 
 .f {
     padding:10px 15px;
-    color:black;
+    color:#2c2c2c;
     text-align: left;
     padding-left: 310px;
     width: 200px;
