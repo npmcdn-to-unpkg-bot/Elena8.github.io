@@ -46,6 +46,8 @@ menu a {
     text-decoration:none;
     color: white;
     font: 14px arial, sans-serif;
+    border-left: 0.1px solid #454444;
+    border-right: 0.1px solid #454444;
 }
 
 
