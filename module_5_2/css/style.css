@@ -1,0 +1,35 @@
+.main {
+	margin: 100px 200px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+tr {
+	border: 3px solid black;
+	
+}
+
+td {
+	border: 3px solid black;
+}
+
+.td1 {
+	background: rgb(255,0,0);
+}
+
+.td2,
+.td3,
+.td4 {
+	background: rgb(255,255,0);
+}
+
+.td5,
+.td7 {
+	background: rgb(0,0,0);
+}
+
+.td6 {
+	background: rgb(0,0,255);
+}
