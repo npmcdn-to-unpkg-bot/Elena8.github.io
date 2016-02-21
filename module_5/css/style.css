@@ -152,7 +152,10 @@ form input {
 }
 
 form input:focus {
-	background: #60b5ed;
+	background: "1b5288";
+	-webkit-box-shadow: 0px 0px 11px 6px rgba(80,139,181,1);
+-moz-box-shadow: 0px 0px 11px 6px rgba(80,139,181,1);
+box-shadow: 0px 0px 11px 6px rgba(80,139,181,1);
 }
 
 /*checkbox*/
