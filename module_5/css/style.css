@@ -151,6 +151,10 @@ form input {
     margin-bottom: 20px;
 }
 
+form input:focus {
+	background: #60b5ed;
+}
+
 /*checkbox*/
 .ch {
     display: inline-block;
