@@ -99,7 +99,7 @@ menu .b2:hover {
     height: 700px;
     background: rgba(0,0,0,0.5);
     z-index: 20;
-    margin: 100px auto;
+    margin: auto;
 }
 
 hr {
