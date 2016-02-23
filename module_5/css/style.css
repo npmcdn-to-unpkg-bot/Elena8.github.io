@@ -10,11 +10,11 @@
 
 }
 
-body {
-	background: url("../img/bg.png") no-repeat;
-	width: 1290px;
+.bd {
+    background: url("../img/bg.png") no-repeat;
+    width: 1290px;
     height: 900px;
-    /*overflow-x:hidden;*/
+
 }
 
 /*Horizont menu*/
