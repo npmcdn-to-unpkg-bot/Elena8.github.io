@@ -91,6 +91,8 @@ menu .b2:hover {
     text-decoration: underline;
 }
 
+
+
 .window {
     position: relative;
     width: 600px;
@@ -118,11 +120,55 @@ hr {
     font:bold 24px "Helvetica Neue",arial, sans-serif;
     letter-spacing:1px;
 }
-
+/*Facebook*/
 .facebook {
     position: relative;
     top:40px;
     left: 170px;
+    height: 35px;
+    width: 274px;
+    background: linear-gradient(to top, #2e4476, #3f5699);
+    border-top: 1px solid #7789bb;
+    border-radius: 4px;
+}
+
+.face {
+     position: relative;
+    top:-2px;
+    left: 2px;
+    padding: 5px 10px;
+    padding-left: 13px;
+
+}
+
+.face-line {
+     position: relative;
+    padding: 0;
+    top:-1px;
+}
+
+.facebook a{
+    text-decoration: none;
+}
+.s5,
+.s6 {
+    font:bold 16px "Helvetica Neue",arial, sans-serif;
+    color: white;
+    margin: 10px;
+    
+}
+
+.s7 {
+    font:16px "Helvetica Neue",arial, sans-serif;
+    color: white;
+    
+}
+
+.text-face {
+    position: relative;
+    top:-35px;
+    left: 50px;
+    margin: 5px 15px;
 }
 
 .ou {
@@ -159,41 +205,38 @@ input:focus {
 }
 
 /*checkbox*/
-.ch {
+
+.checkbox {
+    position: relative;
+ 
+}
+
+input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    background:linear-gradient(to top left,#f7f7f7 , #cecfd6); 
+}
+ label {
     display: inline-block;
-    width: 270px;
-    height: 20px;
-    background: url(../img/checkbox.png) no-repeat;
+    position: relative;
+    top:-2px;
     font: 16px "Helvetica Neue",arial, sans-serif;
     color: white;
-    left: 50px;
-    cursor:pointer;
-}
+    margin-left: 9px;
+ }
 
-
-.ch input {
-    display: none;
-}
-
-label {
-    float: left;
-    margin-left: 2em;
-}
 
 /*submit*/
 input[type="submit"] {  
+    display: block;
     height: 38px;
-    width: 152px;  
-    padding:0 0 0 30px;   /*Выталкивает надпись с картинки в ИЕ*/   
-    overflow:hidden;    /*Обрезает кнопку до указанных размеров*/  
-    cursor:pointer; 
-    border: 1px solid transparent;   
-    background:url(../img/button.png) no-repeat;    /*Положить картинку фоном*/  
-    color:transparent;    /*Надпись на кнопке прозрачна в ФФ и Опере*/ 
-    left: 30px;  
-    position: relative;
-    top: 0.5em;
-    left: 4em;
+    width: 180px;
+    background:linear-gradient(to top, #2e7ac4, #4eabda);
+    font: bold 14px "Helvetica Neue",arial, sans-serif;
+    color: white;
+    border-radius: 4px;
+    margin-left: 50px;
+    border: 1px solid #54a1db;
 
 }
 
