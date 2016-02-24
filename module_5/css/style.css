@@ -12,17 +12,17 @@
 
 .bd {
     background: url("../img/bg.png") no-repeat;
-    width: 100%;
+    width: 1290;
     height: 1000px;
     margin:0 auto;
-     overflow-x:hidden;
+   
 }
 
 /*Horizont menu*/
 menu {
     position: static; 
     height: 40px;
-    width: 1290px;
+   /* width: 1290px;*/
     margin: 0;
     padding: 0;
     background:url("../img/bg-header.png");
