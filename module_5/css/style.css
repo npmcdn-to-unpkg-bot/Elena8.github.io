@@ -217,7 +217,7 @@ input[type="password"]:focus {
 input[type="checkbox"] {
     width: 12px;
     height: 12px;
-    background:linear-gradient(to top left,#f7f7f7 , #cecfd6); 
+    
 }
  label {
     display: inline-block;
