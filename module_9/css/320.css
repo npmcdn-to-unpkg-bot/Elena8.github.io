@@ -1,0 +1,723 @@
+/****MEDIA 320**********************************************/
+@media screen and (max-width: 320px) {
+.wrapper {
+    max-width: 320px;
+    min-width: 100px;
+    margin:0 auto;
+    overflow-x:hidden; 
+}
+
+.img-header {
+    padding:0;
+    margin:0;
+    display: block;
+    background-size:100%;   
+    background: url(../img/header_480.png) no-repeat center top;
+    max-width: 100%;
+    height:550px;
+    z-index: 1;
+}
+
+.transpar {
+    display: none;
+   
+}
+
+.logo {
+    width: 200px;
+    margin-top: 69px ;
+    margin-left: 83px;
+}
+
+
+/**HEADER***************************************************/
+.header{
+    position: relative;
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 515px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.menu {
+  display: none;
+ }
+
+.vertical {
+    display: none;
+    
+   
+ }
+ 
+
+header .home-320 {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 141px;
+}
+
+header .home-320 a {
+    font:28px "League Gothic",arial, sans-serif;
+    color:#ffffff; 
+}
+
+
+.header-text {
+    position: absolute;
+    z-index: 3;
+    width: 268px;
+    height: 245px;
+    left: 50px;
+    top: 302px;
+}
+
+.header-text1 {
+    font:34px "League Gothic",arial, sans-serif;
+    color:#ffffff;
+    line-height: 0.5;
+    letter-spacing:0.5;
+}
+
+.header-text2 {
+    font: 16px "League Gothic",arial, sans-serif;
+    color:#edbfff;
+    line-height: 0.5;
+    letter-spacing:0.5;
+}
+
+.header-text3 {
+    display: none;
+}
+
+
+
+.phone {
+    display: none;
+}
+
+.left {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 40px;
+    height: 42px;
+    background:transparent url(../img/sprite2.png) no-repeat;
+    background-position:-240px -3px;
+    left: 0px;
+    top:308px;
+
+}
+
+.right {
+    display: block;
+    position: absolute;
+    z-index: 6;
+    width: 40px;
+    height: 42px;
+    background:transparent url(../img/sprite2.png) no-repeat;
+    background-position:-350px -4px;
+    left: 250px;
+    top:308px;
+
+}
+
+.switch-header {
+    float: left;
+    display:inline-block;
+    position: relative;
+    top:434px;
+    left: 123px;
+    z-index: 7;
+ }
+
+
+/******************CONTENT********************************/
+.content {
+    position: relative;
+    top:2px;
+    height: 980px;
+    width: 100%;
+}
+
+.column1 {
+    position: relative;
+    top:2px;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to top,#34263b,#734f82);
+    padding-top: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.col1-left,
+.col1-center,
+.col1-right {
+    width: 280px;
+    position: relative;
+    margin-bottom: 80px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.col1-left-img {
+    display: block;
+    position: relative;
+    float: left;
+    margin-right: 0;
+    background:transparent url(../img/spryte.png) no-repeat;
+    background-position:-915px -3px;
+    left: 15px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+}
+
+.col1-center-img {
+    display: block;
+    position: relative;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat;
+    background-position:-840px -3px;
+    left: 15px;
+    top: -10px;
+    height: 30px;
+    top:-15px;
+}
+
+.col1-right-img {
+    display: block;
+    position: relative;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-875px -1px;
+    left: 15px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.col1-text {
+    display: inline-block;
+    position: relative;
+    width: 197px;
+    font:lighter 14px "Open Sans ",arial, sans-serif;
+    line-height: 14px;
+    color: white;
+    left: 40px;
+}
+
+
+/*********DELETE***********************/
+/*.column2 {
+    position: relative;
+    width: 100%;
+    height:788px;
+    background:#f9f9f9;
+    margin: 0 auto;
+}
+
+.col2_left {
+    position: relative;
+    width: 440px;
+    top: -30px;
+    left: -50px;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-1150px -40px;
+    top: 69px;
+    left: 35px;
+    width: 256px;
+    height: 275px;
+    z-index: 1; 
+}
+
+.h1-col2 {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    font: 28px "League Gothic",arial, sans-serif;
+    color: black;
+    width: 100px;
+}
+
+.hh1-col2 {
+    display: inline-block;
+    position: relative;
+    font:28px "League Gothic",arial, sans-serif;
+    color: #edbfff;
+}
+
+.text-col2 {
+    display: inline-block;
+    position: relative;
+    top:25px;
+    font:lighter 16px "OpenSans ",arial, sans-serif;
+    left:50px;
+    color: black;
+    line-height: 20px;
+    width: 179px;
+}
+
+/***********Column2 switch***************/
+/*.switch {
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 85px;
+    left: 140px;
+    height: 20px;
+    z-index: 4;
+ }
+
+
+
+/******Column2 RIGHT********************/
+/*.col2-right {
+    position: absolute;
+    width: 280px;
+    padding-left: 10px;
+    left: -5px;
+    top: 440px;
+}
+
+.mark1{
+    position: relative;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:0px 0px;
+    width: 50px;
+    height: 50px;
+    top:40px;
+}
+
+.mark2 {
+    float: left;
+    position: relative;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-50px 0px;
+    top: 23px;
+    width: 50px;
+    height: 50px;
+    left: -1px;
+}
+
+.h1-col2-right {
+    display: inline-block;
+    position: relative;
+    left: -49px;
+    top:-5px;
+    font:30px "League Gothic",arial, sans-serif;
+    color: black;
+}
+
+.mark3 {
+    float: left;
+    position: relative;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-105px -1px;
+    top: 43px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.h2-col2-right1 {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    font: 14px "Open Sans",arial, sans-serif;
+    font-weight: 800;
+    color: black;
+    width: 208px;
+    
+}
+
+.h2-col2-right2 {
+    display: inline-block;
+    position: relative;
+    left: 17px;
+    top: 26px;
+    font:bold 14px "Open Sans",arial, sans-serif;
+    color: black;
+    width: 208px;
+}
+
+.h2-col2-right3 {
+    display: inline-block;
+    position: relative;
+    left: 17px;
+    top: 44px;
+    font:bold 14px "Open Sans",arial, sans-serif;
+    color: black;
+    width: 208px;
+}
+
+.text-col2-right1 {
+    display: inline-block;
+    position: relative;
+    top:5px;
+    font:lighter 14px "OpenSans ",arial, sans-serif;
+    color: black;
+    font-weight:300;
+   
+
+}
+
+.text-col2-right2 {
+    display: inline-block;
+    position: relative;
+    top:5px;
+    font:lighter 14px "OpenSans ",arial, sans-serif;
+    color: black;
+    font-weight:300;
+    
+}
+
+.text-col2-right3 {
+    display: inline-block;
+    position: relative;
+    top:5px;
+    font:lighter 14px "OpenSans ",arial, sans-serif;
+    color: black;
+    font-weight:300;
+    
+}
+
+.more {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font:bold 18px "League Gothic",arial, sans-serif;
+    color: black;
+    left:185px ;
+    top:74px;
+
+}
+
+.more:hover {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font:bold 14px "League Gothic",arial, sans-serif;
+    color: black;
+    left:185px ;
+    top:80px;
+    text-shadow: 1px 1px 11px rgba(1, 1, 1, 1);
+}
+/***DELETE*************************************/
+
+/*****************************************/
+.column2 {
+    position: relative;
+    width: 100%;
+    height:789px;
+    background:#f9f9f9;
+    margin: 0 auto;
+    padding-top: 2.5%;
+}
+
+
+
+.box {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-1150px -40px;
+    height: 300px;
+    z-index: 1;
+    width: 90%;
+    left: 5%;
+    margin-top: 13%; 
+}
+
+.h1-col2 {
+    display: inline-block;
+    position: relative;
+    margin-left: 16%;
+    top: -25px;
+    font:24px "League Gothic",arial, sans-serif;
+    color: black;
+    width: 100%;
+}
+
+.hh1-col2 {
+    display: inline-block;
+    position: relative;
+    font:24px "League Gothic",arial, sans-serif;
+    color: #edbfff;
+}
+
+.text-col2 {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    font: lighter 16px "OpenSans ",arial, sans-serif;
+    margin-left: 13%;
+    color: black;
+    line-height: 25px;
+    width: 70%;
+}
+
+/***********Column2 switch***************/
+.switch {
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 372px;
+    left: 19%;
+    height: 20px;
+    z-index: 4;
+    width: 200px;
+ }
+
+
+
+/******Column2 RIGHT********************/
+.col2-right {
+    position: relative;
+    margin-right: 6%;
+    width: 90%;
+    top: 50%;
+    left: 10%;
+}
+
+.list-col2-right {
+    margin-top: 47px;
+}
+
+.list-item {
+    
+    padding-bottom: 66px;
+}
+
+.mark1{
+    position: absolute;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:0px 0px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.mark2 {
+    float: left;
+    position: absolute;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-50px 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.h1-col2-right {
+    display: inline-block;
+    position: absolute;
+    font:30px "League Gothic",arial, sans-serif;
+    color: black;
+    top: -2px;
+}
+
+.mark3 {
+    float: left;
+    position: absolute;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-105px -1px;
+    width: 50px;
+    height: 50px;
+}
+
+.h2-col2-right1 {
+    display: inline-block;
+    position: absolute;
+    font: 14px "Open Sans",arial, sans-serif;
+    font-weight:800;
+    color: black;
+    padding-left: 19%;
+    padding-top: 1%;
+    line-height: 25px;
+    width: 90%;
+}
+
+
+
+.text-col2-right1 {
+    display: inline-block;
+    position: absolute;
+    font:lighter 14px "OpenSans ",arial, sans-serif;
+    color: black;
+    font-weight:300;
+
+
+}
+
+
+
+.more {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font:bold 18px "League Gothic",arial, sans-serif;
+    color: black;
+    left: 63%;
+}
+
+.more:hover {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font:bold 18px "League Gothic",arial, sans-serif;
+    color: black;
+    left: 63%;
+    text-shadow: 1px 1px 11px rgba(1, 1, 1, 1);
+}
+
+/*******IMAGES*******************************/
+.images {
+    position: relative;
+    background:#f9f9f9;
+    padding-left: 43px;
+    width: 100%;
+    height: 322px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 51px;
+    padding-bottom: 23px;
+}
+
+.img1 {
+    display: block;
+    float: left;
+    position: relative;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-20px -435px;
+    width: 67px;
+    height: 66px;
+    margin-right:59px;
+}
+
+.img2 {
+    display: block;
+    position: relative;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-155px -435px;
+    width: 67px;
+    height: 66px;
+    margin-right: 60px;
+}
+
+.img3 {
+    display: block;
+    position: relative;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-290px -435px;
+    width: 67px;
+    height: 66px;
+    margin-right: 59px;
+    top: 63px;
+}
+
+.img4 {
+    display: block;
+    position: relative;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-425px -435px;
+    width: 67px;
+    height: 66px;
+    margin-right: 41px;
+    top: 63px;
+}
+
+.img5 {
+    display: block;
+    position: relative;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-545px -435px;
+    width: 67px;
+    height: 66px;
+    margin-right: 63px;
+    top: 93px;
+}
+
+.img6 {
+    display: block;
+    position: relative;
+    float: left;
+    background:transparent url(../img/spryte.png) no-repeat; 
+    background-position:-715px -435px;
+    width: 67px;
+    height: 66px;
+    top: 93px;
+}
+
+/******************************************/
+
+.column3 {
+    display: none;
+   
+}
+
+/**FOOTERR****************************************************/
+
+footer {
+    position: relative;
+    max-width: 100%;
+    height: 200px;
+    margin:0 auto;
+    top: 900px; 
+}
+
+.img-footer {
+    height: 200px;
+    background-size: 100%;
+    background: url(../img/footer_768.png) center center no-repeat;  
+}
+
+footer menu {
+    display:none;
+}
+
+
+.copy-320 {
+    display: inline-block;
+    position: absolute;
+    font:14px "League Gothic",arial, sans-serif;
+    font-weight: 100;
+    color: #ffffff; 
+    left: 91px;
+    top: 40px;
+  
+}
+
+.as-320 {
+    display: inline-block;
+    position: absolute;
+    font:bold 14px "League Gothic",arial, sans-serif;
+    color: #ffffff; 
+    left: 141px;
+    top: 40px;
+}
+
+
+}
+
+
+
+
