@@ -25,8 +25,8 @@
 
 .logo {
     width: 200px;
-    margin-top: 69px ;
-    margin-left: 83px;
+    margin-top: 60px;
+    margin-left: 66px;
 }
 
 
@@ -55,13 +55,15 @@
 header .home-320 {
     display: block;
     position: absolute;
-    top: 150px;
-    left: 141px;
+    top: 140px;
+    left: 121px;
 }
 
 header .home-320 a {
-    font:28px "League Gothic",arial, sans-serif;
+    text-decoration: none;
+    font:24px "League Gothic",arial, sans-serif;
     color:#ffffff; 
+    border-bottom: 2px solid #edbfff;
 }
 
 
@@ -75,24 +77,16 @@ header .home-320 a {
 }
 
 .header-text1 {
-    font:34px "League Gothic",arial, sans-serif;
-    color:#ffffff;
-    line-height: 0.5;
-    letter-spacing:0.5;
+    font:36px "League Gothic",arial, sans-serif;
 }
 
 .header-text2 {
-    font: 16px "League Gothic",arial, sans-serif;
-    color:#edbfff;
-    line-height: 0.5;
-    letter-spacing:0.5;
+    font: 18px "League Gothic",arial, sans-serif;
 }
 
 .header-text3 {
     display: none;
 }
-
-
 
 .phone {
     display: none;
@@ -146,7 +140,7 @@ header .home-320 a {
     position: relative;
     top:2px;
     width: 100%;
-    height: 600px;
+    height: 516px;
     background: linear-gradient(to top,#34263b,#734f82);
     padding-top: 72px;
     padding-left: 20px;
@@ -159,9 +153,15 @@ header .home-320 a {
 .col1-right {
     width: 280px;
     position: relative;
-    margin-bottom: 80px;
+    
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: -22px;
+    margin-top: 5px;
+}
+
+.col1-center {
+    margin-top: 44px;
+    margin-bottom: 55px;
 }
 
 .col1-left-img {
@@ -182,7 +182,7 @@ header .home-320 a {
     position: relative;
     float: left;
     background:transparent url(../img/spryte.png) no-repeat;
-    background-position:-840px -3px;
+    background-position:-915px -3px;
     left: 15px;
     top: -10px;
     height: 30px;
@@ -193,8 +193,8 @@ header .home-320 a {
     display: block;
     position: relative;
     float: left;
-    background:transparent url(../img/spryte.png) no-repeat; 
-    background-position:-875px -1px;
+    background:transparent url(../img/spryte.png) no-repeat;
+    background-position:-915px -3px;
     left: 15px;
     top: -10px;
     width: 30px;
@@ -206,218 +206,19 @@ header .home-320 a {
     display: inline-block;
     position: relative;
     width: 197px;
-    font:lighter 14px "Open Sans ",arial, sans-serif;
-    line-height: 14px;
-    color: white;
     left: 40px;
 }
 
-
-/*********DELETE***********************/
-/*.column2 {
-    position: relative;
-    width: 100%;
-    height:788px;
-    background:#f9f9f9;
-    margin: 0 auto;
+.col1-a a {
+    left: 79.5%;
+    top: 16px;
+}
+.col1-text-320,
+.col1-text-480 {
+    display: none;
 }
 
-.col2_left {
-    position: relative;
-    width: 440px;
-    top: -30px;
-    left: -50px;
-}
 
-.box {
-    display: inline-block;
-    position: relative;
-    float: left;
-    background:transparent url(../img/spryte.png) no-repeat; 
-    background-position:-1150px -40px;
-    top: 69px;
-    left: 35px;
-    width: 256px;
-    height: 275px;
-    z-index: 1; 
-}
-
-.h1-col2 {
-    display: inline-block;
-    position: relative;
-    left: 0px;
-    top: 20px;
-    font: 28px "League Gothic",arial, sans-serif;
-    color: black;
-    width: 100px;
-}
-
-.hh1-col2 {
-    display: inline-block;
-    position: relative;
-    font:28px "League Gothic",arial, sans-serif;
-    color: #edbfff;
-}
-
-.text-col2 {
-    display: inline-block;
-    position: relative;
-    top:25px;
-    font:lighter 16px "OpenSans ",arial, sans-serif;
-    left:50px;
-    color: black;
-    line-height: 20px;
-    width: 179px;
-}
-
-/***********Column2 switch***************/
-/*.switch {
-    display: block;
-    position: relative;
-    text-align: center;
-    top: 85px;
-    left: 140px;
-    height: 20px;
-    z-index: 4;
- }
-
-
-
-/******Column2 RIGHT********************/
-/*.col2-right {
-    position: absolute;
-    width: 280px;
-    padding-left: 10px;
-    left: -5px;
-    top: 440px;
-}
-
-.mark1{
-    position: relative;
-    float: left;
-    background:transparent url(../img/spryte.png) no-repeat; 
-    background-position:0px 0px;
-    width: 50px;
-    height: 50px;
-    top:40px;
-}
-
-.mark2 {
-    float: left;
-    position: relative;
-    background:transparent url(../img/spryte.png) no-repeat; 
-    background-position:-50px 0px;
-    top: 23px;
-    width: 50px;
-    height: 50px;
-    left: -1px;
-}
-
-.h1-col2-right {
-    display: inline-block;
-    position: relative;
-    left: -49px;
-    top:-5px;
-    font:30px "League Gothic",arial, sans-serif;
-    color: black;
-}
-
-.mark3 {
-    float: left;
-    position: relative;
-    background:transparent url(../img/spryte.png) no-repeat; 
-    background-position:-105px -1px;
-    top: 43px;
-    left: 0px;
-    width: 50px;
-    height: 50px;
-}
-
-.h2-col2-right1 {
-    display: inline-block;
-    position: relative;
-    left: 20px;
-    top: 5px;
-    font: 14px "Open Sans",arial, sans-serif;
-    font-weight: 800;
-    color: black;
-    width: 208px;
-    
-}
-
-.h2-col2-right2 {
-    display: inline-block;
-    position: relative;
-    left: 17px;
-    top: 26px;
-    font:bold 14px "Open Sans",arial, sans-serif;
-    color: black;
-    width: 208px;
-}
-
-.h2-col2-right3 {
-    display: inline-block;
-    position: relative;
-    left: 17px;
-    top: 44px;
-    font:bold 14px "Open Sans",arial, sans-serif;
-    color: black;
-    width: 208px;
-}
-
-.text-col2-right1 {
-    display: inline-block;
-    position: relative;
-    top:5px;
-    font:lighter 14px "OpenSans ",arial, sans-serif;
-    color: black;
-    font-weight:300;
-   
-
-}
-
-.text-col2-right2 {
-    display: inline-block;
-    position: relative;
-    top:5px;
-    font:lighter 14px "OpenSans ",arial, sans-serif;
-    color: black;
-    font-weight:300;
-    
-}
-
-.text-col2-right3 {
-    display: inline-block;
-    position: relative;
-    top:5px;
-    font:lighter 14px "OpenSans ",arial, sans-serif;
-    color: black;
-    font-weight:300;
-    
-}
-
-.more {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    font:bold 18px "League Gothic",arial, sans-serif;
-    color: black;
-    left:185px ;
-    top:74px;
-
-}
-
-.more:hover {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    font:bold 14px "League Gothic",arial, sans-serif;
-    color: black;
-    left:185px ;
-    top:80px;
-    text-shadow: 1px 1px 11px rgba(1, 1, 1, 1);
-}
-/***DELETE*************************************/
 
 /*****************************************/
 .column2 {
@@ -441,35 +242,40 @@ header .home-320 a {
     z-index: 1;
     width: 90%;
     left: 5%;
-    margin-top: 13%; 
+    margin-top: 21%;
 }
 
 .h1-col2 {
     display: inline-block;
     position: relative;
-    margin-left: 16%;
-    top: -25px;
-    font:24px "League Gothic",arial, sans-serif;
+    margin-left: -2%;
+    top: 25px;
+    font: 24px "League Gothic",arial, sans-serif;
     color: black;
-    width: 100%;
+    width: 50%;
 }
 
-.hh1-col2 {
+/*.hh1-col2 {
     display: inline-block;
     position: relative;
     font:24px "League Gothic",arial, sans-serif;
     color: #edbfff;
-}
+}*/
 
 .text-col2 {
     display: inline-block;
     position: relative;
-    top: -20px;
+    top: 22px;
     font: lighter 16px "OpenSans ",arial, sans-serif;
-    margin-left: 13%;
+    margin-left: 20%;
     color: black;
     line-height: 25px;
     width: 70%;
+}
+
+.box-text-320,
+.text-col2-480 {
+    display: none;
 }
 
 /***********Column2 switch***************/
@@ -477,8 +283,8 @@ header .home-320 a {
     display: block;
     position: relative;
     text-align: center;
-    top: 372px;
-    left: 19%;
+    top: 356px;
+    left: 27%;
     height: 20px;
     z-index: 4;
     width: 200px;
@@ -489,9 +295,9 @@ header .home-320 a {
 /******Column2 RIGHT********************/
 .col2-right {
     position: relative;
-    margin-right: 6%;
+    margin-left: -10%;
     width: 90%;
-    top: 50%;
+    top: 50.5%;
     left: 10%;
 }
 
@@ -504,7 +310,7 @@ header .home-320 a {
     padding-bottom: 66px;
 }
 
-.mark1{
+/*.mark1{
     position: absolute;
     float: left;
     background:transparent url(../img/spryte.png) no-repeat; 
@@ -521,32 +327,32 @@ header .home-320 a {
     background-position:-50px 0px;
     width: 50px;
     height: 50px;
-}
+}*/
 
-.h1-col2-right {
+/*.h1-col2-right {
     display: inline-block;
     position: absolute;
     font:30px "League Gothic",arial, sans-serif;
     color: black;
     top: -2px;
-}
+}*/
 
-.mark3 {
+/*.mark3 {
     float: left;
     position: absolute;
     background:transparent url(../img/spryte.png) no-repeat; 
     background-position:-105px -1px;
     width: 50px;
     height: 50px;
-}
+}*/
 
 .h2-col2-right1 {
     display: inline-block;
     position: absolute;
-    font: 14px "Open Sans",arial, sans-serif;
+    font: 16px "Open Sans",arial, sans-serif;
     font-weight:800;
     color: black;
-    padding-left: 19%;
+    padding-left: 26%;
     padding-top: 1%;
     line-height: 25px;
     width: 90%;
@@ -557,25 +363,32 @@ header .home-320 a {
 .text-col2-right1 {
     display: inline-block;
     position: absolute;
-    font:lighter 14px "OpenSans ",arial, sans-serif;
+    font:lighter 16px "OpenSans ",arial, sans-serif;
     color: black;
     font-weight:300;
 
 
 }
 
-
+.h2-col2-right1-320,
+.text-col2-right1-320 {
+    display: none;
+}
 
 .more {
+    display: none;
+}
+
+.more-768 {
     display: inline-block;
     position: relative;
     text-decoration: none;
     font:bold 18px "League Gothic",arial, sans-serif;
     color: black;
-    left: 63%;
+    left: 73%;
 }
 
-.more:hover {
+.more-768:hover {
     display: inline-block;
     position: relative;
     text-decoration: none;
@@ -591,7 +404,7 @@ header .home-320 a {
     background:#f9f9f9;
     padding-left: 43px;
     width: 100%;
-    height: 322px;
+    height: 409px;
     border-top: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
     padding-top: 51px;
@@ -698,9 +511,9 @@ footer menu {
 .copy-320 {
     display: inline-block;
     position: absolute;
-    font:14px "League Gothic",arial, sans-serif;
-    font-weight: 100;
-    color: #ffffff; 
+    font:12px 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
     left: 91px;
     top: 40px;
   
@@ -709,9 +522,10 @@ footer menu {
 .as-320 {
     display: inline-block;
     position: absolute;
-    font:bold 14px "League Gothic",arial, sans-serif;
-    color: #ffffff; 
-    left: 141px;
+    font:12px 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 700;  
+    left: 165px;
     top: 40px;
 }
 
