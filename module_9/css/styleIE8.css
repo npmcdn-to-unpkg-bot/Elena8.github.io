@@ -7,7 +7,8 @@
 
 @font-face {
   font-family:"League Gothic";
-  src:url("League_Gothic.eot") format("eot"),
+  src:url("League_Gothic.eot") format("eot");
+  src: local('☺'),
   url("League_Gothic.woff") format("woff"),
   url("League_Gothic.ttf") format("truetype"),
   url("League_Gothic.svg#LeagueGothic") format("svg");
