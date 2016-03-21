@@ -63,6 +63,7 @@ header {
     text-shadow: 1px 1px 2px black;
     margin-right: 20px;
     letter-spacing:0.5;
+    border:0;
 
 }
 
@@ -71,6 +72,7 @@ header {
     background:linear-gradient(to top,#37283e,#734f82);
   -webkit-background-clip: text;  
   color: transparent;
+  border:0;
 
 }
 .transpar {
@@ -153,6 +155,7 @@ display: block;
     background-position:-160px -5px;
     left: 0;
     top: 55%;
+    border:0;
 
 }
 .right {
@@ -165,6 +168,7 @@ display: block;
     background-position:-800px -5px;
     right: 0;
     top: 45%;
+    border:0;
 }
 /*Horizont menu******************************************************/
 
@@ -196,7 +200,7 @@ menu {
     text-shadow: 1px 1px 2px black;
     font: 24px "League Gothic",arial, sans-serif;
     border-bottom: 2px solid transparent
-    
+    border:0;
 }
 
 
@@ -207,7 +211,7 @@ menu {
     border-bottom: 2px solid #edbfff;
      text-shadow: 1px 1px 2px black;
     font: 24px "League Gothic",arial, sans-serif;
-    
+    border:0;
    
 }
 /**************Switch header****************************/
