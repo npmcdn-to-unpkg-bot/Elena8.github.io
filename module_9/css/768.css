@@ -43,8 +43,8 @@ header {
     display: block;
     position: absolute;
     text-align: center;
-    top: 114px;
-    left: 1px;
+    top: 115px;
+    left: 7px;
     width: 700px;
    
  }
@@ -55,7 +55,7 @@ header {
     list-style: none;
     padding:0;
     margin:0;
-    margin-right: 6%;
+    margin-right: 7.5%;
 }
 
 .menu .menu__link{
@@ -67,46 +67,35 @@ header {
     
 }
 
-
-  
-.menu .menu__link:hover {
-    display:inline-block;
-    text-decoration:underline;
-    -moz-text-decoration-color:#edbfff;
-    text-shadow: 1px 1px 2px black;
-    font: 24px "League Gothic",arial, sans-serif;
-    color: #ffffff;
-   
-}
-
 .header-text {
     position: absolute;
     z-index: 3;
     width: 268px;
     height: 245px;
-    left: 36px;
-    top: 328px;
+    left: 34px;
+    top: 320px;
 }
 
 .header-text1 {
     font:46px "League Gothic",arial, sans-serif;
     color:#ffffff;
-    line-height: 0.5;
-    letter-spacing:0.5;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.01em;
 }
 
 .header-text2 {
     font: 22px "League Gothic",arial, sans-serif;
     color:#edbfff;
-    line-height: 0.5;
-    letter-spacing:0.5;
+    line-height: 1;
+    font-weight: 400;
 }
 
 .header-text3 {
-    font: 18px arial, sans-serif;
+    font: 16px arial, sans-serif;
     color:#ffffff;
-    line-height: 0.5;
-    letter-spacing:0.5;
+    line-height: 24px;
+    width: 45%;
 }
 
 .header-text4 {
@@ -181,7 +170,7 @@ header {
 .content {
     position: relative;
     top:-2px;
-    height: 1323px;
+    height: 1345px;
     width: 100%;
 }
 
@@ -191,7 +180,7 @@ header {
     width: 100%;
     height:237px;
     background: linear-gradient(to top,#34263b,#734f82);
-    padding-top: 85px;
+    padding-top: 87px;
     padding-left: 0px;
     
 }
@@ -200,13 +189,13 @@ header {
 .col1-center,
 .col1-right {
     float: left;
-    width:30%;/* 190px;*/
+    width:30%;
     position: relative;
 }
 
 .col1-center {
-    margin-right:4%;/* 30px;*/
-    margin-left:4%;/* 30px;*/
+    margin-right:4%;
+    margin-left:4%;
 }
 
 
@@ -217,8 +206,8 @@ header {
     margin-right: 0;
     background:transparent url(../img/spryte.png) no-repeat;
     background-position:-915px -3px;
-    left: 33px;
-    top:-15px;
+    left: 24px;
+    top: -9px;
     width: 30px;
     height: 30px;
 }
@@ -228,23 +217,25 @@ header {
     position: relative;
     float: left;
     background:transparent url(../img/spryte.png) no-repeat;
-    background-position:-840px -3px;
-    left: 30px;
+    background-position:-915px -3px;
+    left: 24px;
+    top: -9px;
     width: 30px;
     height: 30px;
-    top:-15px;
+    
 }
 
 .col1-right-img {
     display: block;
     position: relative;
     float: left;
-    background:transparent url(../img/spryte.png) no-repeat; 
-    background-position:-875px -1px;
-    left: 30px;
+    background:transparent url(../img/spryte.png) no-repeat;
+    background-position:-915px -3px;
+    left: 24px;
+    top: -9px;
     width: 30px;
     height: 30px;
-    top:-15px;
+    
 }
 
 .col1-text-h1 {
@@ -259,11 +250,15 @@ header {
 .col1-text {
     display: inline-block;
     position: relative;
-    width: 140px;
-    font:lighter 14px "Open Sans ",arial, sans-serif;
-    line-height: 14px;
+    width: 70%;
+    font: 16px "Open Sans ",arial, sans-serif;
+    line-height: 20px;
     color: white;
     left: 40px;
+}
+
+.col1-text-768 {
+    display: none;
 }
 
 .col1-a a {
@@ -308,11 +303,11 @@ header {
     float: left;
     background:transparent url(../img/spryte.png) no-repeat; 
     background-position:-1150px -40px;
-    height: 300px;
+    height: 270px;
     z-index: 1;
-    width: 45%;
-    margin-left: 5%;
-    margin-top: 12%;
+    width: 42%;
+    margin-left: 4%;
+    margin-top: 11%;
 }
 
 .img-avatar {
@@ -323,8 +318,8 @@ header {
     float: left;
     width: 50px;
     height: 50px;
-    left: -4%;
-    top: 6%;
+    left: -6.5%;
+    top: 5%;
     z-index: 2;
 
 }
@@ -332,9 +327,10 @@ header {
 .h1-col2 {
     display: inline-block;
     position: relative;
-    margin-left: -2%;
-    top: 19px;
+    margin-left: -2.5%;
+    top: 24px;
     font:24px "League Gothic",arial, sans-serif;
+    line-height: 25px;
     color: black;
     width: 40%;
 }
@@ -349,12 +345,16 @@ header {
 .text-col2 {
     display: inline-block;
     position: relative;
-    top: 20px;
+    top: 26px;
     font: lighter 16px "OpenSans ",arial, sans-serif;
     margin-left: 13%;
     color: black;
     line-height: 25px;
-    width: 70%;
+    width: 80%;
+}
+
+.text768 {
+    display: none;
 }
 
 /***********Column2 switch***************/
@@ -373,11 +373,11 @@ header {
 
 /******Column2 RIGHT********************/
 .col2-right {
-    float: right;
-    position: relative;
-    margin-right: 6%;
+    float: left;
+    position: absolute;
+    margin-left: 0.5%;
     width: 40%;
-    top: 125px;
+    top: 124px;
 
 }
 
@@ -413,8 +413,9 @@ header {
     display: inline-block;
     position: absolute;
     font:30px "League Gothic",arial, sans-serif;
+    font-weight: 400;
     color: black;
-    top: -20px;
+    top: 0;
 }
 
 .mark3 {
@@ -429,10 +430,10 @@ header {
 .h2-col2-right1 {
     display: inline-block;
     position: absolute;
-    font: 14px "Open Sans",arial, sans-serif;
-    font-weight:800;
+    font: 16px "Open Sans",arial, sans-serif;
+    font-weight: 700;
     color: black;
-    padding-left: 19%;
+    padding-left: 23%;
     padding-top: 1%;
     line-height: 25px;
     width: 90%;
@@ -442,13 +443,19 @@ header {
 .text-col2-right1 {
     display: inline-block;
     position: absolute;
-    font:lighter 14px "OpenSans ",arial, sans-serif;
+    font:16px "OpenSans ",arial, sans-serif;
+    letter-spacing: -0.03em;
+    font-weight: 300;
     color: black;
     font-weight:300;
 
 }
 
 .more {
+    display: none;
+}
+
+.more-768 {
   display: inline-block;
   position: relative;
   text-decoration: none;
@@ -459,11 +466,11 @@ header {
 
 }
 
-.more:hover {
+.more-768:hover {
   display: inline-block;
   position: relative;
   text-decoration: none;
-  font:bold 14px "League Gothic",arial, sans-serif;
+  font:bold 18px "League Gothic",arial, sans-serif;
   color: black;
   left: 79%;
     top: 4px;
@@ -474,8 +481,8 @@ header {
 /*******IMAGES*******************************/
 .images {
     position: relative;
-    background:#f9f9f9;
-    padding-left:5%;
+    background: #f9f9f9;
+    padding-left: 1.5%;
     width: 100%;
     height: 70px;
     border-top: 1px solid #e6e6e6;
@@ -493,7 +500,7 @@ header {
     width: 67px;
     height: 66px;
     /*margin-left:10%;*/
-    margin-right:6%;
+    margin-right:7.8%;
     /*margin-right:59px;*/
 }
 
@@ -505,7 +512,7 @@ header {
     background-position:-155px -435px;
     width: 67px;
     height: 66px;
-    margin-right:6%;/* 60px;*/
+    margin-right:7.5%;/* 60px;*/
 }
 
 .img3 {
@@ -516,7 +523,7 @@ header {
     background-position:-290px -435px;
     width: 67px;
     height: 66px;
-    margin-right:5%;/* 59px;*/
+    margin-right:8%;/* 59px;*/
 }
 
 .img4 {
@@ -527,7 +534,7 @@ header {
     background-position:-425px -435px;
     width: 67px;
     height: 66px;
-    margin-right:7%;/* 41px;*/
+    margin-right:6%;/* 41px;*/
 }
 
 .img5 {
@@ -538,7 +545,7 @@ header {
     background-position:-545px -435px;
     width: 67px;
     height: 66px;
-    margin-right:6%;/* 63px;*/
+    margin-right:11.1%;/* 63px;*/
 }
 
 /******************************************/
@@ -547,44 +554,30 @@ header {
     position: relative;
     background: #ececec;
     max-width: 768px;
-    height: 277px;
-    padding-top: 100px;
-    padding-bottom: 0px; 
-    padding-left: 26px;
+    height: 330px;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 
-.col3-text-h2 {
-    display: inline-block;
-    position: relative;
-    left:16px;
-    top: -3px;
-    font:bold 24px "League Gothic",arial, sans-serif;
-    color: black;
-    width: 100%;
-}
-
-.col3-text-h3 {
-    display: inline-block;
-    position: relative;
-    font:bold 24px "League Gothic",arial, sans-serif;
-    color:#b9b9b9;
-    width: 100%;
-}
 
 .col3-text-h1 {
     display: inline-block;
     position: relative;
     left: 22px;
-    font: bold 24px "League Gothic",arial, sans-serif;
-    color: black;
+    font:24px "League Gothic",arial, sans-serif;
+    color: #454444;
+    font-weight: 400;
     width: 100%;
 }
 
 .col3-text {
     display: inline-block;
     position: relative;
-    font:lighter 14px "Open Sans ",arial, sans-serif;
-    color: #787878;
+    font:lighter 16px "Open Sans ",arial, sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.03em;
     top:8px;
     left: 25px;
     overflow: hidden;
@@ -594,10 +587,14 @@ header {
 .col3-center,
 .col3-right {
     float: left;
-    width: 29%;
+    width: 27%;
     top: -8px;
     position: relative;
     
+}
+
+.col3-left {
+    left: -13px;
 }
 
 .col3-center {
@@ -605,15 +602,17 @@ header {
     margin-left: 4%;
 }
 
-.col3-data {
+.col3-left-text768,
+.col3-center-text768 {
     display: inline-block;
-    position: relative;
-    left: 16px;
-    top: 6px;
-    font:italic 14px "Open Sans",arial, sans-serif;
-    color: #c5c5c5;
-
 }
+
+.col3-center-text,
+.col3-left-text,
+.col3-text-768 {
+    display: none;
+}
+
 
 
 
@@ -639,8 +638,8 @@ footer menu {
     display:inline-block;
     position: absolute;
     text-align: center;
-    top: 48px;
-    left: 20px;
+    top: 35px;
+    left: 9px;
     width: 700px
 }
 
@@ -678,20 +677,21 @@ footer .menu-footer .menu__link:hover {
 .copy {
     display: inline-block;
     position: relative;
-    font:14px "League Gothic",arial, sans-serif;
-    font-weight: 100;
-    color: #ffffff; 
+    font:12px 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 300; 
     top: 20px;
-    left: 590px;
+    left: 588px;
 }
 
 .as {
     display: inline-block;
     position: relative;
-    font:bold 14px "League Gothic",arial, sans-serif;
-    color: #ffffff; 
+    font:12px 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
     top:20px;
-    left: 610px;
+    left: 590px;
 }
 
 .copy-320,
