@@ -810,8 +810,8 @@ footer menu {
     display: inline-block;
     position: absolute;
     text-align: center;
-    top: 30px;
-    left: 10%;
+    margin-top: 30px;
+    margin-left: 10%;
 }
 
 footer .menu-footer .menu__item {
