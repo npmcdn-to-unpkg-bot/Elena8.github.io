@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-=======
 
-/*@import url(768.css);
-@import url(400.css);
-@import url(960.css);
-@import url(320.css);*/
-
-
->>>>>>> origin/master
 @font-face {
     font-family: 'League Gothic';
-    src: url('league_gothic-webfont.eot');
-    src: url('league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('league_gothic-webfont.woff2') format('woff2'),
-         url('league_gothic-webfont.woff') format('woff'),
-         url('league_gothic-webfont.ttf') format('truetype');
+    src: url('../fonts/league_gothic-webfont.eot');
+    src: url('../fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league_gothic-webfont.woff2') format('woff2'),
+         url('../fonts/league_gothic-webfont.woff') format('woff'),
+         url('../fonts/league_gothic-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
