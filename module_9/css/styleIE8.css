@@ -57,7 +57,7 @@ header {
 
     display:inline-block; 
     position: absolute;
-    font-family:'LeagueGothicRegular',arial, sans-serif;
+    font-family:'League Gothic',arial, sans-serif;
     font-size:46px;
     color:#ffffff;
     text-shadow: 1px 1px 2px black;
@@ -121,14 +121,14 @@ header {
     font-weight: 400;
     line-height: ;
     letter-spacing: -0.01em;
-    font-family:"LeagueGothicRegular",arial, sans-serif;
+    font-family:"League Gothic",arial, sans-serif;
     font-size:60px;
     color:#ffffff;
      
 }
 
 .header-text2 {
-    font:32px "LeagueGothicRegular",arial, sans-serif;  
+    font:32px "League Gothic",arial, sans-serif;  
      color:#edbfff;
     
     line-height: 1;
@@ -199,7 +199,7 @@ menu {
     text-decoration:none;
     color:#ffffff;
     text-shadow: 1px 1px 2px black;
-    font: 24px "LeagueGothicRegular",arial, sans-serif;
+    font: 24px "League Gothic",arial, sans-serif;
     border-bottom: 2px solid transparent
     border:0;
 }
@@ -211,7 +211,7 @@ menu {
     text-decoration:none;
     border-bottom: 2px solid #edbfff;
      text-shadow: 1px 1px 2px black;
-    font: 24px "LeagueGothicRegular",arial, sans-serif;
+    font: 24px "League Gothic",arial, sans-serif;
     border:0;
    
 }
