@@ -155,7 +155,7 @@ display: block;
     background:transparent url(../img/spryte.png) no-repeat;
     background-position:-160px -5px;
     left: 0;
-    margin-top: 20%;
+    margin-top: 15%;
     border:0;
 
 }
@@ -168,7 +168,7 @@ display: block;
     background:transparent url(../img/spryte.png) no-repeat;
     background-position:-800px -5px;
     right: 0;
-    margin-top: 20%;
+    margin-top: 15%;
     border:0;
 }
 /*Horizont menu******************************************************/
