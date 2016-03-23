@@ -412,7 +412,8 @@ menu {
     display: inline-block;
     position: relative;
     margin-left: -2%;
-    margin-top: -30px;
+    top:0;
+    margin-top: -50px;
     font:30px "League Gothic",arial, sans-serif;
     color: black;
     font-weight: 400;
