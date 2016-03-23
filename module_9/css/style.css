@@ -6,11 +6,11 @@
     url("../fonts/LeagueGothicRegular/LeagueGothicRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
-}*/
+}
 @import url(768.css);
 @import url(400.css);
 @import url(960.css);
-@import url(320.css);
+@import url(320.css);*/
 
 
 @font-face {
