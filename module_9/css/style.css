@@ -302,7 +302,7 @@ menu {
     width: 100%;
     height:220px;/* 11%;*/
     /*background: linear-gradient(to top,#34263b,#734f82);*/
-   background:-moz-linear-gradient(to top,#34263b,#734f82);
+   background-image: -moz-linear-gradient(to top,#34263b,#734f82);
     padding-top:7%;
     padding-bottom: 3%;
     padding-left:15%;
