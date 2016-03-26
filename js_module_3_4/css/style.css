@@ -1,0 +1,38 @@
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+h1 {
+	font-size: 22px;
+	margin: 15px 200px;
+	font-weight: 400;
+}
+
+ol {
+	margin-left: 50px;
+}
+
+.list-item {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	width: 170px;
+}
+
+label {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.label-first {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+input[type='submit'] {
+	margin-left: 200px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
