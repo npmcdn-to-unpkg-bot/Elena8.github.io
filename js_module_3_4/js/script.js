@@ -1,4 +1,4 @@
-var wrap=document.createElement('div');
+/*var wrap=document.createElement('div');
 wrap.classList.add('wrapper');
 var mainWrap=document.querySelector('body');
 mainWrap.insertBefore(wrap, mainWrap.firstChild);
@@ -154,7 +154,99 @@ label3.insertBefore(inputText3, label3.children[1]);
 var submit=document.createElement('input');
 submit.setAttribute('type','submit');
 submit.setAttribute('value','Проверить мои результаты');
-mainForm.insertBefore(submit,mainForm.children[3]);
+mainForm.insertBefore(submit,mainForm.children[3]);*/
+
+var obj={
+
+createElements: function (varName,tag,nameClass,mainTagVar,mainTag,position){
+    varName=document.createElement(tag);
+
+    varName.classList.add(nameClass);
+    mainTagVar=document.querySelector(mainTag);
+    mainTagVar.insertBefore(varName,mainTagVar.children[position]);
+},
+
+createLabels:function (tag, classEl, parentsEl) {
+        tag = document.createElement(tag);
+        parentsEl.appendChild(tag);
+        tag.classList.add(classEl);
+      },
+
+createInputs:function(tag,classEl,parentsEl,type){
+        tag = document.createElement(tag);
+        
+        parentsEl.appendChild(tag);
+        tag.setAttribute('type',type);
+        tag.classList.add(classEl);
+
+},
+
+createText: function(varTag,text){
+	varTag.innerHTML = text;
+}
+
+};
+var answerArr=['Вариант ответа №1','Вариант ответа №2','Вариант ответа №3'];
+var tagTag;
+var classLi1;
+var classLi2;
+var classLi3;
+var elLabel;
+obj.createElements('wrap','div','wrapper','mainWrap','body',0);
+obj.createElements('hh1','h1','hh_1','wrap','.wrapper',0);
+tagTag=document.querySelector('h1');
+obj.createText(tagTag,'Тест по программированию');
+obj.createElements('mainForm','form','formMain','wrap','.wrapper',1);
+obj.createElements('oll','ol','list','mainForm','form', 0);
+//Create li
+for(var i=0;i<3;i++){
+obj.createElements('li'+[i+1],'li','list-item'+[i+1],'ol1','ol',i);
+}
+
+classLi1= document.getElementsByClassName('list-item1');
+classLi2 = document.getElementsByClassName('list-item2');
+classLi3 = document.getElementsByClassName('list-item3');
+
+obj.createText(classLi1[0],'Вопрос №1');obj.createLabels('br','br',classLi1[0]);
+obj.createText(classLi2[0],'Вопрос №2');obj.createLabels('br','br',classLi2[0]);
+obj.createText(classLi3[0],'Вопрос №3');obj.createLabels('br','br',classLi3[0]);
+//create labels
+for(var j=0;j<3;j++){
+  obj.createLabels('label','label1'+[j+1],classLi1[0]);
+}
+
+for(var j=0;j<3;j++){
+  obj.createLabels('label','label2'+[j+1],classLi2[0]);
+}
+
+for(var j=0;j<3;j++){
+  obj.createLabels('label','label3'+[j+1],classLi3[0]);
+}
+//add answers
+elLabel=document.getElementsByTagName('label');
+console.log("elLabel",elLabel);
+
+for(var m=0;m<3;m++){
+  obj.createText(elLabel[m],answerArr[m]);
+}
+for(var m=3;m<6;m++){
+  obj.createText(elLabel[m],answerArr[m-3]);
+}
+for(var m=6;m<9;m++){
+  obj.createText(elLabel[m],answerArr[m-6]);
+}
+
+//create checkbox
+for(var k=0; k<elLabel.length; k++)
+{
+  obj.createInputs('input','input',elLabel[k],'checkbox');
+  obj.createLabels('br','br',elLabel[k]);
+}
+
+//create submit
+var formTag=document.getElementsByTagName('form');
+obj.createInputs('input','submit',formTag[0],'submit');
+
 
 
 
