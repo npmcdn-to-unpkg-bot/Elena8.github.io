@@ -156,6 +156,7 @@ submit.setAttribute('type','submit');
 submit.setAttribute('value','Проверить мои результаты');
 mainForm.insertBefore(submit,mainForm.children[3]);*/
 
+
 var obj={
 
 createElements: function (varName,tag,nameClass,mainTagVar,mainTag,position){
@@ -169,20 +170,23 @@ createElements: function (varName,tag,nameClass,mainTagVar,mainTag,position){
 createLabels:function (tag, classEl, parentsEl) {
         tag = document.createElement(tag);
         parentsEl.appendChild(tag);
+        //parentsEl.insertBefore(tag,parentsEl.children[1]);
         tag.classList.add(classEl);
       },
 
-createInputs:function(tag,classEl,parentsEl,type){
+createInputs:function(tag,classEl,parentsEl,type,position){
         tag = document.createElement(tag);
         
-        parentsEl.appendChild(tag);
+        //parentsEl.appendChild(tag);
+        parentsEl.insertBefore(tag,parentsEl.children[position]);
         tag.setAttribute('type',type);
         tag.classList.add(classEl);
 
 },
 
-createText: function(varTag,text){
-	varTag.innerHTML = text;
+createText: function(varTag,text,position){
+	varTag.innerHTML ='<span>'+text+'</span>';
+  //parentsEl.insertBefore(varTag.innerHTML,parentsEl.children[position]);
 }
 
 };
@@ -207,9 +211,9 @@ classLi1= document.getElementsByClassName('list-item1');
 classLi2 = document.getElementsByClassName('list-item2');
 classLi3 = document.getElementsByClassName('list-item3');
 
-obj.createText(classLi1[0],'Вопрос №1');obj.createLabels('br','br',classLi1[0]);
-obj.createText(classLi2[0],'Вопрос №2');obj.createLabels('br','br',classLi2[0]);
-obj.createText(classLi3[0],'Вопрос №3');obj.createLabels('br','br',classLi3[0]);
+obj.createText(classLi1[0],'Вопрос №1',0);obj.createLabels('br','br',classLi1[0]);
+obj.createText(classLi2[0],'Вопрос №2',0);obj.createLabels('br','br',classLi2[0]);
+obj.createText(classLi3[0],'Вопрос №3',0);obj.createLabels('br','br',classLi3[0]);
 //create labels
 for(var j=0;j<3;j++){
   obj.createLabels('label','label1'+[j+1],classLi1[0]);
@@ -222,30 +226,34 @@ for(var j=0;j<3;j++){
 for(var j=0;j<3;j++){
   obj.createLabels('label','label3'+[j+1],classLi3[0]);
 }
+
+
 //add answers
+
 elLabel=document.getElementsByTagName('label');
-console.log("elLabel",elLabel);
 
 for(var m=0;m<3;m++){
-  obj.createText(elLabel[m],answerArr[m]);
+  obj.createText(elLabel[m],answerArr[m],1);
 }
 for(var m=3;m<6;m++){
-  obj.createText(elLabel[m],answerArr[m-3]);
+  obj.createText(elLabel[m],answerArr[m-3],1);
 }
 for(var m=6;m<9;m++){
-  obj.createText(elLabel[m],answerArr[m-6]);
+  obj.createText(elLabel[m],answerArr[m-6],1);
 }
-
 //create checkbox
+
 for(var k=0; k<elLabel.length; k++)
 {
-  obj.createInputs('input','input',elLabel[k],'checkbox');
+  obj.createInputs('input','input',elLabel[k],'checkbox',0);
   obj.createLabels('br','br',elLabel[k]);
 }
 
 //create submit
 var formTag=document.getElementsByTagName('form');
 obj.createInputs('input','submit',formTag[0],'submit');
+
+
 
 
 
