@@ -1,0 +1,46 @@
+div {
+	width: 1100px;
+	height: 300px;
+	border: 15px solid black;
+	margin-left: 50px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	border-radius: 30px;
+	
+}
+
+input[type='text']{
+	border:none;
+	
+}
+
+.inp1 {
+	font-weight: 900;
+    font-size: 160px;
+    width: 900px;
+    height: 180px;
+    margin-left: 140px;
+}
+
+.inp2 {
+	font-weight: 800;
+    font-size: 80px;
+    height: 90px;
+    width: 300px;
+    margin-left: 700px;
+}
+
+input[type='button']{
+	border: 15px solid black;
+	width: 300px;
+	height:100px;
+	margin-left: 190px;
+	border-radius: 50px;
+	font-size: 54px;
+	font-weight: 600;
+}
+
+#inpB2 {
+	background: linear-gradient(to top left,#8B0000,#FF0000);
+}
+
