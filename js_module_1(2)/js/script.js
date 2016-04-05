@@ -1,4 +1,3 @@
-
 var name1=[];
 
 for(var i=0; i<5; i++){
@@ -11,12 +10,17 @@ var flag;
 for(var j=0; j<=name1.length-1; j++){
 	if(name1[j]==nameUser)
 	{
+		if(name1[j]===null){
+		flag=0;
+	}else {
 		flag=1;
-		break;
+		break;}
 	}
 	else{
 		flag=0;
 	}
+
+
 }
 
 if(flag==1)
@@ -26,5 +30,3 @@ if(flag==1)
 else{
 	alert('ERROR!!');
 }
-
-
