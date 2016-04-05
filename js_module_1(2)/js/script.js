@@ -2,7 +2,7 @@ var name1=[];
 function addName(nameUser){
 var flag;
 for(var j=0; j<=name1.length-1; j++){
-	if(name1[j]==nameUser)
+	if(name1[j]==nameUser && (name1[j]!==null) && (name1[j]!==''))
 	{
 		if((name1[j]===null) && (name1[j]==='')){
 		flag=0;
