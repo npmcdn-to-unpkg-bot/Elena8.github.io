@@ -56,9 +56,9 @@ header {
 
 .logo-er {
     display:inline-block; 
-    background:#37283e;
-  /*-webkit-background-clip: text;  */
-  color: transparent;
+   /* background:#37283e;
+  -webkit-background-clip: text;  */
+  color: #37283e;
   border:0;
 
 }
