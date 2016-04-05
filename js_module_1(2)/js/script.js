@@ -1,11 +1,5 @@
 var name1=[];
-
-for(var i=0; i<5; i++){
-	var namePrompt=prompt('Enter name :');
-	name1.push(namePrompt);
-}
-
-var nameUser=prompt("Enter YOUR name");
+function addName(nameUser){
 var flag;
 for(var j=0; j<=name1.length-1; j++){
 	if(name1[j]==nameUser)
@@ -30,3 +24,15 @@ if(flag==1)
 else{
 	alert('ERROR!!');
 }
+
+}
+
+
+
+for(var i=0; i<5; i++){
+	var namePrompt=prompt('Enter name :');
+	name1.push(namePrompt);
+}
+
+var nameUser=prompt("Enter YOUR name");
+addName(nameUser);
