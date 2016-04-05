@@ -56,10 +56,10 @@ header {
 
 .logo-er {
     display:inline-block; 
-    background:linear-gradient(to top,#37283e,#734f82);
-  -webkit-background-clip: text;  
+    background:#37283e;
+  /*-webkit-background-clip: text;  
   color: transparent;
-  border:0;
+  border:0;*/
 
 }
 
