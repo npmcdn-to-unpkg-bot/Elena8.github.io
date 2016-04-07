@@ -855,7 +855,7 @@ footer .menu-footer .menu__link:hover {
     display: none;
 }
 
-@media screen and (min-width: 1441px and max-width: 1920px){
+@media screen and (max-width: 1920px){
 
 .wrapper {
   min-width: 1441px;
