@@ -1,5 +1,5 @@
 var name1=[];
-function addName(nameUser){
+function addName(){
 var flag;
 for(var i=0; i<5; i++){
 	var namePrompt=prompt('Enter name :');
@@ -26,4 +26,4 @@ for(var j=0; j<=name1.length-1; j++){
         }
 
 }
-addName(nameUser);
+addName();
