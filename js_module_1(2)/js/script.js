@@ -1,5 +1,5 @@
 var name1=[];
-function prompt (){
+function prompt(){
     for(var i=0; i<5; i++){
 	var namePrompt=prompt('Enter name :');
 	name1.push(namePrompt);
