@@ -358,12 +358,14 @@ header .menu .menu__link:hover {
   top:10%;
 }
 
-.column1 .col1-left .col1-a a:hover {
+.column1 .col1-left .col1-a a:hover,
+.column1 .col1-center .col1-a a:hover,
+.column1 .col1-right .col1-a a:hover{
   display: block;/*inline-block*/
   position: relative;
   text-decoration: none;
   font:18px "League Gothic",arial, sans-serif;
-  color: white;
+  color: red;
   left: 70%;
   text-shadow: 1px 1px 11px rgba(255, 255, 255, 1);
   top:10%;
