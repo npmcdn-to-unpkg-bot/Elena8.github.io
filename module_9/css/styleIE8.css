@@ -358,7 +358,7 @@ header .menu .menu__link:hover {
   top:10%;
 }
 
-.col1-a a:hover {
+.column1 .col1-left .col1-a a:hover {
   display: block;/*inline-block*/
   position: relative;
   text-decoration: none;
