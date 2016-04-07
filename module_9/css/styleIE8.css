@@ -288,7 +288,7 @@ header .menu .menu__link:hover {
 }
 
 .col1-right {
-  width:21%;
+  width:20%;
 }
 
 .col1-center{
@@ -346,7 +346,7 @@ header .menu .menu__link:hover {
     letter-spacing: -0.03em;
     font-weight: 300;
     font:16px "Open Sans ",arial, sans-serif;
-    line-height: 24px;
+    line-height: 23px;
     color: white;
     left: 20px;
 }
