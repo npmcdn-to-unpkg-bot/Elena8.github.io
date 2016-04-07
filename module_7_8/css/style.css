@@ -431,7 +431,7 @@ menu {
     font:30px "League Gothic",arial, sans-serif;
     color: black;
     font-weight: 400;
-    top: -120px;
+    top: -100px;
 }
 
 .hh1-col2 {
@@ -453,7 +453,7 @@ menu {
     font-weight: 300;
     letter-spacing: -0.03em;
     /*width: 60%;*/
-    left: -20%;
+    left: -190px;
     width: 40%;
 }
 
