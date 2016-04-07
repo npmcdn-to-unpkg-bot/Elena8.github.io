@@ -183,7 +183,7 @@ menu {
 
   
 .menu .menu__link:hover {
-    display:inline-block;
+    display:block;
     text-decoration:none;
     border-bottom: 2px solid #edbfff;
      text-shadow: 1px 1px 2px black;
@@ -355,7 +355,7 @@ menu {
   top:10%;
 }
 
-.col1-a:hover a {
+.col1-a a:hover {
   display: block;/*inline-block*/
   position: relative;
   text-decoration: none;
