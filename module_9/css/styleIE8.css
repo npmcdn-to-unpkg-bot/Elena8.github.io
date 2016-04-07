@@ -184,7 +184,7 @@ menu {
   
 header .menu .menu__link:hover {
     display:inline-block;
-    text-decoration:underline;
+    text-decoration:none;
     /*border-bottom: 2px solid #edbfff;*/
     text-shadow: 1px 1px 2px black;
     font: 24px "League Gothic",arial, sans-serif;
