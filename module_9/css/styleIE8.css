@@ -286,8 +286,13 @@ header .menu .menu__link:hover {
     width: 20%;
     position: relative;
 }
+
+.col1-right {
+  width:22%;
+}
+
 .col1-center{
-  margin-right: 5%;
+  margin-right: 7%;
   margin-left: 7%;
 }
 
