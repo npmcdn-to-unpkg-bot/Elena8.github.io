@@ -866,6 +866,10 @@ footer .menu-footer .menu__link:hover {
 }
 
 .box {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    margin-left: 13.3%;
     margin-top: 4%;
 }
 .text-col2 {
