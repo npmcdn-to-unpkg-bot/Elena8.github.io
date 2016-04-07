@@ -5,6 +5,7 @@ for(var i=0; i<5; i++){
 	var namePrompt=prompt('Enter name :');
 	name1.push(namePrompt);
     }
+var nameUser=prompt("Enter YOUR name");
 for(var j=0; j<=name1.length-1; j++){
 	if(name1[j]==nameUser && (name1[j]!==null) && (name1[j]!==''))
 	{
@@ -25,5 +26,4 @@ for(var j=0; j<=name1.length-1; j++){
         }
 
 }
-var nameUser=prompt("Enter YOUR name");
 addName(nameUser);
