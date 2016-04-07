@@ -355,7 +355,7 @@ menu {
   top:10%;
 }
 
-.col1-a a:hover {
+.col1-a:hover a {
   display: block;/*inline-block*/
   position: relative;
   text-decoration: none;
