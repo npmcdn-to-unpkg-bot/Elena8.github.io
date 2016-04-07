@@ -288,7 +288,11 @@ header .menu .menu__link:hover {
 }
 
 .col1-right {
-  width:20%;
+  margin-right:8%;
+}
+
+.col1-left {
+  margin-left:8%;
 }
 
 .col1-center{
