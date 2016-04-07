@@ -356,7 +356,7 @@ menu {
 }
 
 .col1-a a:hover {
-  display: inline-block;
+  display: block;/*inline-block*/
   position: relative;
   text-decoration: none;
   font:18px "League Gothic",arial, sans-serif;
