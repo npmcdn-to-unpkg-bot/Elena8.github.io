@@ -283,17 +283,11 @@ header .menu .menu__link:hover {
 .col1-center,
 .col1-right {
     float: left;
-    width: 20%;
+    width: 22%;
     position: relative;
 }
 
-.col1-right {
-  margin-right:8%;
-}
 
-.col1-left {
-  margin-left:8%;
-}
 
 .col1-center{
   margin-right: 7%;
