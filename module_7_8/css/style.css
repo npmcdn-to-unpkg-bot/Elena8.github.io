@@ -859,7 +859,21 @@ footer .menu-footer .menu__link:hover {
     display: none;
 }
 
-/*}*/
+
+@media (max-width: 1600px){
+.wrapper {
+  min-width:1500px;
+    max-width:1600px;
+  margin:0 auto;
+  overflow-x:hidden;
+    
+}
+	
+.h1-col2 {
+    top: -130px;
+}
+	
+}
 
 @media (max-width: 1440px){/*1920*/
 
