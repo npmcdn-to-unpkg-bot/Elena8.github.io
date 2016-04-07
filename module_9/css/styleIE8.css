@@ -595,7 +595,8 @@ header .menu .menu__link:hover {
   display: inline-block;
   position: relative;
   text-decoration: none;
-  font:bold 18px "League Gothic",arial, sans-serif;
+  font:bold 20px "League Gothic",arial, sans-serif;
+  font-weight:800;
   color: black;
   left:345px ;
   top:5px;
