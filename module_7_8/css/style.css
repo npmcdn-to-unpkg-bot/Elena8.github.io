@@ -4,7 +4,7 @@
 @import url(960.css);
 @import url(320.css);
 
-
+@media (max-width:1440px){
 .wrapper {
   min-width: 961px;
     max-width:1440px;/* 100%;*/
@@ -853,6 +853,8 @@ footer .menu-footer .menu__link:hover {
 .copy-320,
 .as-320 {
     display: none;
+}
+
 }
 
 @media (max-width: 1920px){
