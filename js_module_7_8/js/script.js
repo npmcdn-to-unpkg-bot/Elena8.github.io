@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	
 function tabs(tag){
 	$(tag).each(function(j){
 		$(this).click(function(){
@@ -31,9 +30,7 @@ function tabs(tag){
 			    }
 		})
 	})
-
 }
-
 tabs('li');
 
 /////////////Comments////////////////////
