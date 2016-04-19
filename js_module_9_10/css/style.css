@@ -1,0 +1,244 @@
+
+.wrapper {
+	width: 100%;
+
+}
+
+header {
+	width: 100%;
+	height: 600px;
+}
+
+.header-text {
+	width: 100%;
+	height: 150px;
+	background: #F0EFE7;
+	padding-top: 30px;
+
+}
+
+.h {
+	display:block;
+	font-weight: 700;
+    font: 100px "Open sans", arial;
+    line-height: 100%;
+    letter-spacing: -3px;
+    color: #F14E32;
+    
+    text-align: center;
+}
+.content {
+	width: 100%;
+	height: 400px;
+	background: #F0EFE7;
+}
+
+.block-carousel {
+	width: 100%;
+	height: 360px;
+	background: #F0EFE7;
+	padding-bottom: 5px;
+}
+
+.carousel {
+	width: 747px;
+	height: 300px;
+	border: 10px solid white;
+	border-radius: 5px;
+}
+
+
+
+/****Checkbox********************/
+.checkbox-jQuary {
+    display: inline-block;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 50px;
+
+}
+
+.checkbox-jQuary div {
+    margin-bottom: 5px;
+    margin-top:2px;
+}
+.label-jQuary {
+    display: inline-block;
+    width: 100px;
+    margin-left: 17px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font: 16px "Open sans", arial;
+}
+
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../images/checkbox_spryte.png);
+    z-index: 200;
+}
+
+/* input {
+    margin-left: -100px;
+}*/
+.niceChecked {
+
+    background-position:-4px -2px;
+
+}
+
+.niceCheck input {
+
+    margin-left: -100px; /* можно задать побольше чтобы наверняка скрыть поле */
+
+}
+
+.niceCheckDisabled {
+
+    background-image: url(../images/checkbox_spryte.png);
+
+}
+
+
+/*********Checkbox CSS*******************/
+
+.checkbox-CSS {
+    display: inline-block;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.label-checkbox {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.label-checkbox:before {
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../images/checkbox_spryte.png);
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+}
+
+input[type=checkbox]:checked + .label-checkbox:before {
+    background-position: -4px -2px;
+
+}
+
+input[type=checkbox] + .label-checkbox:before {
+    background-position: -4px -30px;
+}
+
+/************Menu************/
+
+.menu__horizont {
+    display: block;
+    position: relative;
+    text-align: center;
+    top: -16px;
+    width: 100%;
+    height: 55px;
+    background: #528B8B;
+    padding-top: 0px;
+ }
+
+ 
+
+.menu .menu__item {
+    float: left;
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-right:6%;/* 52px;*/
+    padding-top: 10px;
+}
+
+.menu .menu__link{
+    display:inline-block;
+    text-decoration:none;
+    height: 45px;
+    width: 90px;
+    color:#ffffff;
+    text-shadow: 1px 1px 2px black;
+    font: 24px "League Gothic",arial, sans-serif;
+    
+}
+
+
+.menu .sub-menu {
+    position: absolute;
+    top: 55px;
+    z-index: 100;
+    left: 203px;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background:#AEEEEE;
+    display:none;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+}
+
+.menu .sub-menu a {
+    display: inline-block;
+    padding: 2px;
+    padding-left: 5px;
+    text-align: left;
+    color: black;
+    border-bottom: 1px solid #96CDCD;
+    text-decoration: none;
+    font: 14px arial, sans-serif;
+    width: 130px;
+}
+
+.sub-menu1 {
+    position: absolute;
+    z-index: 100;
+    top:0px;
+    left: 130px;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #AEEEEE;
+    display:none;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+}
+
+.sub-menu2 {
+    position: absolute;
+    z-index: 100;
+    top:55px;
+    left: 130px;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #AEEEEE;
+    display:none;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+    box-shadow:         0px 0px 14px 0px rgba(50, 50, 50, 0.97);
+}
+
+.active {
+
+    background-color:#79CDCD;
+
+}
