@@ -11,7 +11,7 @@ window.slider.simpleSlide({
 });
 
 // default
-$('select').selectBox();
+$('.select').selectBox();
 
 // or with custom settings
 $('select').selectBox({
