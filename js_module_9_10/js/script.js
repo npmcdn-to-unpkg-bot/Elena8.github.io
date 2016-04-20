@@ -1,4 +1,5 @@
 $(document).ready(function() {
+ /*Slider*********************/
 window.slider = $('#slide');
 window.slider.simpleSlide({
     'auto':true,
@@ -10,6 +11,8 @@ window.slider.simpleSlide({
     }
 });
 
+/**Select*********************/
+
 // default
 $('select').selectBox();
 
@@ -19,9 +22,12 @@ $('select').selectBox({
     menuSpeed: 'fast'
 });
 
+/*****Menu************************/
+
 $(".menu li").hover(
         function() {
-            $(this).find("ul:first").fadeIn(400);
+            $(this).find("ul:first").slideToggle().animate({backgroundColor: '#0000ff' }, 400);/*fadeIn(400);*/
+            $(this).animate({backgroundColor:"#03C",}, 500 );
             $(this).addClass("active");
         }, function() {
             $(this).find("ul:first").fadeOut(0);
@@ -29,17 +35,25 @@ $(".menu li").hover(
     });
     
     $(".menu li:has(ul)").addClass("sub");
+    /*$(this).find("ul:first").css({'backgroundColor': '#000077'});*/
 
-$(".active").mouseenter(
+/*jQuery("ul:first").mouseenter(
+
   function () {
-	$(this).animate({
-		backgroundColor:"#0CF",
-    }, 500 );
-});
-$("active").mouseleave(function() {
-	$(this).animate({
-		backgroundColor:"#79CDCD",
-    }, 500 );
+    jQuery(this).animate({backgroundColor:"#03C",}, 500 );
 });
 
+ 
+
+jQuery("ul:first").mouseleave(function() {
+
+    jQuery(this).animate({backgroundColor:"#0CF",}, 500 );
+
 });
+*/
+
+
+});
+
+
+

@@ -13,6 +13,7 @@
   <script src="js/simple-jquery-slider.js"></script>
   <script src="js/simple-jquery-slider.min.js"></script>
   <script src="js/jquery.selectbox.js" type="text/javascript"></script>
+  <script src="js/jquary.color.js" type="text/javascript"></script>
   <script type="text/javascript" src="js/jquery.checkbox.js"></script>
 
 </head>
@@ -63,7 +64,39 @@
                     <li class="menu__item"><a class="menu__link"  href="#">LOREM IPSUM</a></li>
                     <li class="menu__item"><a class="menu__link"  href="#">DOLOR SIT </a></li>
         </ul>
+        <!--<script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery(".sub").mouseenter(
+
+  function () {
+
+    jQuery(this).animate({
+
+        backgroundColor:"blue",
+    }, 1500 );
+
+});
+
+ 
+
+jQuery(".sub").mouseleave(function() {
+
+    jQuery(this).animate({
+
+        backgroundColor:"black",
+
+    }, 1500 );
+
+});
+
+ 
+
+});
+
+</script>-->
+
       </div>
+      
 		</header>
     
 
@@ -78,40 +111,32 @@
           <option value="5">Option 5</option>
         </select>
     </div>
-    <div class="checkbox-jQuary">
+    <div class="checkbox-jQuary"><span><h3>Чекбокс jQuary</h3></span>
       <form action="#">
-      <div> <label class="label-jQuary" for='chb1'> Вариант 1</label>
-        <!--<span class="niceCheck"  id="niceCheckbox1">-->
-         
-          <input type="checkbox" class="niceCheck" name="ch1" id='chb1' checked="true"/>
-          
-        <!--</span>-->
-      </div>
-
-     <!-- <div><label class="label-jQuary" for="chb2">Вариант 2</label>
-        <span class="niceCheck" id="niceCheckbox2">
-          
-          <input type="checkbox" class="niceCheck" name="ch1" id="chb2" />
-          
-        </span>
-      </div>
-    
-    <div>
-        <span class="niceCheck"  id="niceCheckbox3">
-          <label class="label-jQuary" for="chb3">Вариант 3</label>
-          <input type="checkbox" class="niceCheck" name="ch1" id="chb3" />
-          
-        </span>
-      </div>
-
-     <!-- <div>
-        <span class="niceCheck" id="niceCheckbox4">
-          <label class="label-jQuary">
-          <input type="checkbox" name="ch1"  id="chb4"/>Вариант 4</label>
-        </span>
-      </div>--></form>
+        <div class="decor_checkbox"> 
+          <span class="niceCheck"  id="niceCheckbox1">
+            <input type="checkbox"  name="ch1" id='chb1' />
+          </span><label class="label-jQuary" for='chb1'> Вариант 1</label>
+        </div>
+        <div class="decor_checkbox"> 
+          <span class="niceCheck"  id="niceCheckbox2">
+            <input type="checkbox"  name="ch1" id='chb2' />
+          </span><label class="label-jQuary" for='chb2'> Вариант 2</label>
+        </div>
+        <div class="decor_checkbox"> 
+          <span class="niceCheck"  id="niceCheckbox3">
+            <input type="checkbox"  name="ch1" id='chb3' />
+          </span><label class="label-jQuary" for='chb3'> Вариант 3</label>
+        </div>
+        <div class="decor_checkbox"> 
+          <span class="niceCheck"  id="niceCheckbox4">
+            <input type="checkbox"  name="ch1" id='chb4' />
+          </span><label class="label-jQuary" for='chb4'> Вариант 4</label>
+        </div>
+     </form>
     </div>
-      <div class="checkbox-CSS">
+    <div class="checkbox-CSS"><span><h3>Чекбокс css</h3></span><br>
+      <form action="#" class="checkbox-css-form">
       <input type="checkbox" id="test-check1" />
       <label class="label-checkbox" for="test-check1">Чекбокс 1</label><br>
 
@@ -123,6 +148,7 @@
 
       <input type="checkbox" id="test-check4" />
       <label class="label-checkbox" for="test-check4">Чекбокс 4</label><br>
+      </form>
     </div>
     </div>
 

@@ -58,35 +58,24 @@ header {
 
 }
 
-.checkbox-jQuary div {
-    margin-bottom: 5px;
-    margin-top:2px;
-}
 .label-jQuary {
     display: inline-block;
     width: 100px;
-    margin-left: 17px;
+    margin-left: 10px;
     cursor: pointer;
-    margin-bottom: 10px;
     font: 16px "Open sans", arial;
 }
+.check_active .niceCheck {
+            background-position: -4px -2px;
+        }
 
 .niceCheck {
     width: 17px;
     height: 17px;
     display: inline-block;
     cursor: pointer;
-    background: url(../images/checkbox_spryte.png);
+    background: url(../images/checkbox_spryte.png) -4px -30px;
     z-index: 200;
-}
-
-/* input {
-    margin-left: -100px;
-}*/
-.niceChecked {
-
-    background-position:-4px -2px;
-
 }
 
 .niceCheck input {
@@ -94,14 +83,9 @@ header {
     margin-left: -100px; /* можно задать побольше чтобы наверняка скрыть поле */
 
 }
-
-.niceCheckDisabled {
-
-    background-image: url(../images/checkbox_spryte.png);
-
+h3 {
+    margin-bottom: 1px;
 }
-
-
 /*********Checkbox CSS*******************/
 
 .checkbox-CSS {
@@ -114,6 +98,10 @@ header {
 input[type=checkbox] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
+}
+
+.checkbox-css-form {
+    margin-top: -20px;
 }
 
 .label-checkbox {
@@ -186,7 +174,7 @@ input[type=checkbox] + .label-checkbox:before {
     margin: 0;
     padding: 0;
     list-style: none;
-    background:#AEEEEE;
+    background: #AEEEEE;
     display:none;
     -webkit-box-shadow: 0px 0px 14px 0px rgba(50, 50, 50, 0.97);
     -moz-box-shadow:    0px 0px 14px 0px rgba(50, 50, 50, 0.97);
@@ -238,7 +226,11 @@ input[type=checkbox] + .label-checkbox:before {
 }
 
 .active {
+   
+    background-color:red;
 
-    background-color:#79CDCD;
+}
 
+ul:first {
+    background: yellow;
 }
