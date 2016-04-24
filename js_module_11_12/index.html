@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="utf-8">
+  <title>JS_11-12</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="js/jquery.carousel.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/template.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="header-text"><span class="h">jCarousel</span></div>
+			<div class="block-carousel">
+				<div class="carousel">
+				<ul class="carousel-list">
+					<li class="carousel-elment" ><img class="carousel-img" src="img/img1.jpg" alt=""></li>
+					<li class="carousel-elment"><img class="carousel-img" src="img/img2.jpg" alt=""></li>
+					<li class="carousel-elment"><img class="carousel-img" src="img/img3.jpg" alt=""></li>
+                    <li class="carousel-elment"><img class="carousel-img" src="img/img4.jpg" alt=""></li>
+					<li class="carousel-elment"><img class="carousel-img" src="img/img5.jpg" alt=""></li>
+				</ul>
+				</div>
+				<div class="carousel-button">
+					<a href="#" class="carousel-next">&#8250</a>
+					<a href="#" class="carousel-prev">&#8249</a>
+					<p class="carousel-nav">
+						<a href="#1" class="car-link active"></a>
+						<a href="#2" class="car-link" ></a>
+						<a href="#3" class="car-link"></a>
+					</p>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<script type="text/template" id="about">
+			<div class="wrap">
+			<h2> <%= hh %> </h2>
+			<img class="imgTmpl" src=<%= img %> alt="My photo">	
+			<p class="student"><%=student%></p>
+			<hr>
+			
+			<p class="listH"><%=listH%></p>
+			<ul class="listTmpl">
+				<% for(var i=0;i<3;i++){ %>
+					<li class="itemTmpl"><%= listItem[i] %></li><br>
+					<%};%>
+			</ul>
+			<hr>
+			<div class="contacts">
+			<p><%=contactTel%><br> <%=tel%></p>
+            <p><%=profileVk%>  <br><a href="<%=hrefVk%>" >vk.com</a></p>
+            </div>
+            <hr>
+
+            <p class="fid"><%=fidback%><br><%=fidText%></p>
+            
+            </div>
+			</script>
+		</div>
+	</div>
+</body>
+</html>

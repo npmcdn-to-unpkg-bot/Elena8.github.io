@@ -26,8 +26,7 @@ $('select').selectBox({
 
 $(".menu li").hover(
         function() {
-            $(this).find("ul:first").slideToggle().animate({backgroundColor: '#0000ff' }, 400);/*fadeIn(400);*/
-            $(this).animate({backgroundColor:"#03C",}, 500 );
+            $(this).find("ul:first").slideToggle().animate({backgroundColor: '#0000ff' }, 400);
             $(this).addClass("active");
         }, function() {
             $(this).find("ul:first").fadeOut(0);
@@ -35,24 +34,7 @@ $(".menu li").hover(
     });
     
     $(".menu li:has(ul)").addClass("sub");
-    /*$(this).find("ul:first").css({'backgroundColor': '#000077'});*/
-
-/*jQuery("ul:first").mouseenter(
-
-  function () {
-    jQuery(this).animate({backgroundColor:"#03C",}, 500 );
-});
-
- 
-
-jQuery("ul:first").mouseleave(function() {
-
-    jQuery(this).animate({backgroundColor:"#0CF",}, 500 );
-
-});
-*/
-
-
+    
 });
 
 
