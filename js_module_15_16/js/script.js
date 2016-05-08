@@ -14,39 +14,36 @@ $(function () {
         height: 183,
         weight: 80
     };
-    Worker = {
-        work: "engineer",
-        zp: 300,
-        workUp: function () {
+    function Worker (work,zp) {
+        this.work=work;
+        this.zp=zp;
+        this.workUp= function() {
             return this.name + " work!!";
         }
-    };
-    Student = {
-        stud: "DonNTU",
-        scholarship: 25,
-        watch: function () {
+    }
+    Worker.prototype=Human;
+    var newWorker = new Worker();
+    var work1 = new Worker("engineer","300");
+    var work2 = new Worker("engineer2","400");
+    console.log(newWorker.workUp());
+    console.log(work1);
+    console.log(work2);
+    function Student (stud,scholarship) {
+        this.stud=stud;
+        this.scholarship=scholarship;
+        this.watch= function() {
             return this.name + " watch series.";
         }
-    };
-    Worker.__proto__ = Human;
-    Student.__proto__ = Human;
-    console.log("worker name: ", Worker.name);
-    console.log("worker age: ", Worker.age);
-    console.log("worker pol: ", Worker.feMa);
-    console.log("worker height: ", Worker.height);
-    console.log("worker weight: ", Worker.weight);
-    console.log("worker work: ", Worker.work);
-    console.log("worker zp: ", Worker.zp);
-    console.log(Worker.workUp());
-    console.log("_______________________ ");
-    console.log("student name: ", Student.name);
-    console.log("student age: ", Student.age);
-    console.log("student pol: ", Student.feMa);
-    console.log("student height: ", Student.height);
-    console.log("student weight: ", Student.weight);
-    console.log("student stud: ", Student.stud);
-    console.log("student scholarship: ", Student.scholarship);
-    console.log(Student.watch());
+    } 
+    
+    Student.prototype=Human;
+    var newStudent = new Student();
+    var student1 = new Student("DonNTU","50");
+    var student2 = new Student("DonNU","60");
+    console.log(newStudent.watch());
+    console.log(student1);
+    console.log(student2);
+    
    
 //$('[type=button]').click(function() {
  
