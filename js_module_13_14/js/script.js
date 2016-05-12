@@ -63,7 +63,11 @@ $(document).ready(function () {
         }
         windModal();
         $('.wrapperModal').css('display', 'block');
-        $(':checked').removeAttr('checked');
+        $('.wrapperModal').click(function(){
+			$('.wrapperModal').css('display', 'none');
+			$(':checked').removeAttr('checked');
+		});
+        //$(':checked').removeAttr('checked');
         
     });
     
@@ -78,6 +82,6 @@ $(document).ready(function () {
         }
         $(".wrapperModal").append('<p class="modal_elem">Правильных ответов:' + kol  + ' </p>');
         $(".wrapperModal").append('<p class="modal_elem">Неправильных ответов:' + kolNotTrue  + ' </p>');
-        $(".wrapperModal").append('<button>Close</botton>');
+        //$(".wrapperModal").append('<button>Close</botton>');
     }
 });
