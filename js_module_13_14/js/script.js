@@ -62,7 +62,7 @@ $(document).ready(function () {
             kolNotTrue = kolNotTrue + 1;
         }
         windModal();
-        $('.wrapperModal').css('display', 'block');
+        $('.wrapperModal').css({'display':'block','overflow':'hidden'});
         $('button').click(function(){
 			$('.wrapperModal').css('display', 'none');
 			$(':checked').removeAttr('checked');
