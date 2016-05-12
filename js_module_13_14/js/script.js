@@ -65,9 +65,9 @@ $(document).ready(function () {
         $('.wrapperModal').css('display', 'block');
         $('.wrapperModal').click(function(){
 			$('.wrapperModal').css('display', 'none');
-			$(':checked').removeAttr('checked');
+			//$(':checked').removeAttr('checked');
 		});
-        //$(':checked').removeAttr('checked');
+        $(':checked').removeAttr('checked');
         
     });
     
