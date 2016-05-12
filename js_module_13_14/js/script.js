@@ -66,7 +66,7 @@ $(document).ready(function () {
         $('button').click(function(){
 			$('.wrapperModal').css('display', 'none');
 			$(':checked').removeAttr('checked');
-			$(':checked').removeAttr('disabled');
+			$('input[type=checkbox]').removeAttr('disabled');
 			kol=0;
 		});
         //$(':checked').removeAttr('checked');
