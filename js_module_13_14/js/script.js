@@ -66,6 +66,7 @@ $(document).ready(function () {
         $('.wrapperModal').click(function(){
 			$('.wrapperModal').css('display', 'none');
 			//$(':checked').removeAttr('checked');
+			kol=0;
 		});
         $(':checked').removeAttr('checked');
         
