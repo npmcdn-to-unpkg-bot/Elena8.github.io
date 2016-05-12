@@ -78,6 +78,6 @@ $(document).ready(function () {
         }
         $(".wrapperModal").append('<p class="modal_elem">Правильных ответов:' + kol  + ' </p>');
         $(".wrapperModal").append('<p class="modal_elem">Неправильных ответов:' + kolNotTrue  + ' </p>');
-        $(".wrapperModal").append('<input type="buttom" value="Close">');
+        $(".wrapperModal").append('<input type="button" value="Close">');
     }
 });
