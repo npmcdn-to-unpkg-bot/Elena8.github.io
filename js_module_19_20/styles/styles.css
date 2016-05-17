@@ -398,7 +398,8 @@ header {
         display: inline-block;
         color: white;
         font: 600 14px "Ubuntu Medium", arial;
-        margin-top: 50px; }
+        margin-top: 50px;
+        margin-bottom: 40px; }
       .footer1__wrapper .footer1 .footer1__block .footer1__link {
         display: inline-block;
         color: #828385;
@@ -408,6 +409,8 @@ header {
         width: 250px;
         border-bottom: 1px solid #393c40;
         margin-top: 15px; }
+      .footer1__wrapper .footer1 .footer1__block .footer1__link:last-child {
+        border-bottom: 1px solid #2a2d32; }
       .footer1__wrapper .footer1 .footer1__block .footer1__link:hover {
         color: #2582da; }
 
