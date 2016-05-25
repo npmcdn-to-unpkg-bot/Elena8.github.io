@@ -1,30 +1,34 @@
-
 $(function () {
     'use strict';
-    
-   
-    $('form').on('submit', function() {
+    function callback() {
         var query = $('#query').val();
         $.ajax({
-            url: /*"http://api.riffsy.com/v1/search?tag=" + query + "&limit=7"*/
-            "https://pixabay.com/api/?key=2630817-b95f50d1e0fc2b68ed1f4d734&q=" + query + "&image_type=photo",
-            dataType: 'jsonp',
-            success: function(data, textStatus) {
-                console.log('Success: ', data);
-                
-                var ul = document.createElement('ul');
-               $.each(/*data.results,*/ function(i, val) {
-                    var li = document.createElement('li');
-                    li.classList.add('output-items');
-                    console.log(data.results);
-                    li.innerHTML = /*'<a href="' +val.webformatURL+ '" title="'+val.webformatURL+'" target="_blank">'+val.title+ '</br>' +*/'<img class="image-output" src="' + val.userImageURL + '">'/*+"</a>"*/;
-                    ul.appendChild(li);                   
-                });
-                $('#search-result').html(ul);
+            url: "https://pixabay.com/api/",
+            data: {
+                key: "2630817-b95f50d1e0fc2b68ed1f4d734",
+                q: query
+            },
+            success: function (data) {
+                console.log(data);
+                var html,
+                    content;
+                html = $('#tmpl').html();
+                content = tmpl(html, data);
+                $('body').append(content);
+          
             }
-        });    
-        return false;  
-    });   
+        });
+    };
+    $('.search').on('click', callback);
+
+    $('#query').keypress(function (e) {
+        if (e.which === 13) {
+            callback();
+        }
+    });
+
+});
+   
     var Human,
         Worker,
         Student;
@@ -65,22 +69,4 @@ $(function () {
     console.log(student1);
     console.log(student2);
     
-   
-//$('[type=button]').click(function() {
- 
-//function search(){
-			//var srch = $('[type=text]').val(); 
-			/*$.ajax({
-				url: 'http://ajax.googleapis.com/ajax/services/search/web?v=1.0&key=ABQIAAAACKQaiZJrS0bhr9YARgDqUxQBCBLUIYB7IF2WaNrkYqF0tBovNBQFDtM_KNtb3xQxWff2mI5hipc3lg&rsz=large&q='+ 'test' +'&callback=GoogleCallback&context=?',
-				dataType: 'jsonp'
-			});*/
-     
-		//}
 
-
-    
-//});
-
-
-    
-});
