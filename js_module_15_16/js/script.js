@@ -12,6 +12,11 @@ $(function () {
                 console.log(data);
                 var html,
                     content;
+                    console.log(data.hits.length);
+                if(data.hits.length>0) {
+                    
+                    $(".images").remove();
+                }
                 html = $('#tmpl').html();
                 content = tmpl(html, data);
                 $('body').append(content);
