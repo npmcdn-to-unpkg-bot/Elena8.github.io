@@ -1,9 +1,30 @@
 
-/*function GoogleCallback(jqueryObj,data) {
-    console.log(data);
-} */
 $(function () {
     'use strict';
+    
+   
+    $('form').on('submit', function() {
+        var query = $('#query').val();
+        $.ajax({
+            url: /*"http://api.riffsy.com/v1/search?tag=" + query + "&limit=7"*/
+            "https://pixabay.com/api/?key=2630817-b95f50d1e0fc2b68ed1f4d734&q=" + query + "&image_type=photo",
+            dataType: 'jsonp',
+            success: function(data, textStatus) {
+                console.log('Success: ', data);
+                
+                var ul = document.createElement('ul');
+               $.each(/*data.results,*/ function(i, val) {
+                    var li = document.createElement('li');
+                    li.classList.add('output-items');
+                    console.log(data.results);
+                    li.innerHTML = /*'<a href="' +val.webformatURL+ '" title="'+val.webformatURL+'" target="_blank">'+val.title+ '</br>' +*/'<img class="image-output" src="' + val.userImageURL + '">'/*+"</a>"*/;
+                    ul.appendChild(li);                   
+                });
+                $('#search-result').html(ul);
+            }
+        });    
+        return false;  
+    });   
     var Human,
         Worker,
         Student;
