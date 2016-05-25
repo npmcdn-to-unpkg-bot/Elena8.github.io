@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script  src="js/script.js"></script>
+    <script src="js/template.js"></script>
 
 
     
@@ -14,13 +15,18 @@
 </head>
 <body>
     <div class="wrapper"> 
-        <form>
+        <div>
           <input type="search" id="query" >
-          <input type="submit" value="Search">
-        </form>
-        <div class="search__result" id="search-result">
-                
+          <input type="submit" value="Search" class="search">
         </div>
+        
+        <script id="tmpl" type="text/template">
+          <div class="images">
+              <% for (i=0; i<hits.length; i++) {%>
+              <img src="<%= hits[i].previewURL%>">
+              <%}%>
+          </div>
+        </script>
     </div>
 </body>
 
