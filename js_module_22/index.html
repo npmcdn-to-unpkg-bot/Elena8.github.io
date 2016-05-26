@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+	<meta charset="utf-8">
+  <title>Module js_module_22</title>
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    
+
+    <script  src="js/dist/script.js"></script>
+    <script  src="js/template.js"></script>
+
+</head>
+<body>
+    
+  <div class="wrapper">
+     <h1>Тест по программированию</h1>
+      <form>
+      <ol class="list--test">
+          <script  src="js/clickChb.js"></script>
+          <script type="text/template" id="test">
+          
+          <% for(var i=0;i<3;i++){%>
+          <li class="list--item<%= [i] %>"><%= answerArr1[i] %></li>
+          <div class="checkbox--block<%=[i+1]%>">
+            <% for(var j=0;j<3; j++){%>
+            <label class="label<%= [i+1] %><%= [j+1] %>"><input type="checkbox" onchange="click<%=[i+1]%>();" class="checkAnsw<%=i+1%>" id="chb<%= [i+1] %><%= [j+1] %>"><%= answ[j] %></label><br>
+            
+                
+                <%}%>
+           </div> 
+          <%};%>
+          </script>
+          
+      </ol>
+          <input type="submit" class="submit--answers" value="Проверить мои результаты">
+      </form>
+  </div>
+</body>
+
+</html>
