@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+	<meta charset="utf-8">
+  <title>Module js_module_24</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script  src="js/script.js"></script>
+    <script  src="js/template.js"></script>
+   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    
+
+</head>
+<body>
+  <div class="wrap">
+   <script type="text/template" id="wrapper__template">
+   <div class="wrapper">
+        <ul class="item__list">
+            
+        </ul>
+        <div class="controlls">
+            <input type="text" class="item--value">
+            <button class="item--add">Add</button>
+        </div>
+    </div>
+    </script>
+    
+    <script type="text/templeate" id="list__template">
+      <% for (var i = 0; i < data.length; i++) { %>
+        <li> <%= data[i] %><span data-value="<%= data[i] %>" class="item__delete">  X</span></li>
+            
+      <% }; %>
+    </script>
+    </div>
+    
+</body>
+
+</html>

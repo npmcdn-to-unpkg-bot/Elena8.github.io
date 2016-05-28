@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #EEE5DE;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 100px 500px;
+
+}
+
+.item__list li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.item--value {
+    background: #C1CDC1;
+    height: 30px;
+    border: 2px solid #8B8989; 
+}
+
+.item--add {
+    border-radius: 10px;
+    background: #8B8989;
+    border: 2px solid #8B8989; 
+    height: 35px;
+    width: 70px;
+}
+
+.item__delete {
+    color: red;
+    
+}
