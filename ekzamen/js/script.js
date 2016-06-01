@@ -32,13 +32,18 @@ $(function() {
             callback();
         }
     });
-
+$(window).load(function(){
+  	      $('.grid').masonry({
+  	        itemSelector: '.grid-item',
+  	        columnWidth: '.grid-item'
+  	      });
+    });
     
-    $('.grid').masonry({
+   // $('.grid').masonry({
   // options
-  itemSelector: '.grid-item',
-  columnWidth: '.grid-item'
-});
+  //itemSelector: '.grid-item',
+ // columnWidth: '.grid-item'
+//});
     
     $('.flexslider').flexslider({
     animation: "slide"
