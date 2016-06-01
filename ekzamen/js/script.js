@@ -1,3 +1,9 @@
+$(window).load(function(){
+  	      $('.grid').masonry({
+  	        itemSelector: '.grid-item',
+  	        columnWidth: '.grid-item'
+  	      });
+    });
 $(function() {
     'use strict';
     function callback() {
@@ -32,12 +38,7 @@ $(function() {
             callback();
         }
     });
-$(window).load(function(){
-  	      $('.grid').masonry({
-  	        itemSelector: '.grid-item',
-  	        columnWidth: '.grid-item'
-  	      });
-    });
+
     
    // $('.grid').masonry({
   // options
