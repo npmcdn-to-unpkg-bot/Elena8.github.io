@@ -3,8 +3,8 @@ $(window).load(function(){
   	        itemSelector: '.grid-item',
   	        columnWidth: '.grid-item'
   	      });
-    });
-$(function() {
+   // });
+//$(function() {
     'use strict';
     function callback() {
         var query = $('#query').val();
