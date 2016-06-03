@@ -14,11 +14,12 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <!--<script src="js/masonry.pkgd.js"></script>-->
+    <script src="js/imagesLoad.min.js"></script>
+     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>   
     <script src="js/script.js"></script>
     <script src="js/template.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
     
-     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>   
 
   
 
@@ -26,16 +27,19 @@
 <body>
     <div class="wrapper">
         <header>
+           
             <div class="header__log">
                 <button class="log__in">Log In</button>
                 <button class="sign__up">Sign Up</button>
             </div>
+            <span class="header__text__h2">URLAUBSGLÜCK</span>
             <span class="header__text">
-                <span class="header__text__h2">URLAUBSGLÜCK</span>
+                <!--<span class="header__text__h2">URLAUBSGLÜCK</span>-->
                 <span class="header__text__h1">SHARE YOUR HOLIDAY DREAMS</span>
                 <span class="header__text__h3">And find the partner to fullfill it</span>
             </span>
             <button class="header__find">Find your holiday partner</button>
+            
         </header>
         <div class="content1">
             <span class="content1__h1">How Urlaubsglück works?</span>
@@ -149,6 +153,7 @@
             </span>
             </div>
             <div class="grid__images">
+            <!--<div class="grid">-->
             <script id="tmpl" type="text/template">
               <div class="grid">
               <% for (i=0; i<10; i++) { %>
