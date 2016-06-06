@@ -13,13 +13,12 @@
     
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
     <!--<script src="js/masonry.pkgd.js"></script>-->
     <script src="js/imagesLoad.min.js"></script>
-     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>   
-    <script src="js/script.js"></script>
+    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>   
     <script src="js/template.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    
+    <script src="js/script.js"></script>
 
   
 
@@ -50,7 +49,7 @@
                 Donec rhoncus a leo sit amet facilisis.</span>
             </span>
             <span class="content1__img content1__img2">
-                <button class="step">STEP2</button>
+                <button class="step step2">STEP2</button>
                 <span class="content1__img__h1">Morbi velit risus</span>
                 <span class="content1__img__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</span>
             </span>
@@ -64,8 +63,8 @@
             <div class="flexslider__box">
             <div class="flexslider">
                 <ul class="slides">
-                    <li><img class="slides__img1 slides__img" src="img/tabl_slide1.png" /></li>
-                    <li><img class="slides__img2 slides__img" src="img/tabl_slide2.png" /></li>
+                    <li><img class="slides__img1 slides__img"  /></li><!--src="img/tabl_slide1.png"-->
+                    <li><img class="slides__img2 slides__img"  /></li><!--src="img/tabl_slide2.png"-->
                 </ul>
                 <span class="content1__flexslider flexslider__text1">
                 <button class="step">STEP1</button>
@@ -77,11 +76,11 @@
             
             <div class="flexslider">
                 <ul class="slides">
-                    <li><img class="slides__img2 slides__img" src="img/tabl_slide2.png"/></li>
-                    <li><img class="slides__img3 slides__img" src="img/tabl_slide3.png" /></li>
+                    <li><img class="slides__img2 slides__img" /></li>
+                    <li><img class="slides__img3 slides__img"  /></li>
                 </ul>
                 <span class="content1__flexslider flexslider__text2">
-                <button class="step">STEP2</button>
+                <button class="step step2">STEP2</button>
                 <span class="content1__img__h1">Morbi velit risus</span>
                 <span class="content1__img__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</span>
             </span>
@@ -89,8 +88,8 @@
             
             <div class="flexslider">
                 <ul class="slides">
-                    <li><img class="slides__img3 slides__img" src="img/tabl_slide3.png" /></li>
-                    <li><img class="slides__img1 slides__img" src="img/tabl_slide1.png" /></li>
+                    <li><img class="slides__img3 slides__img"  /></li>
+                    <li><img class="slides__img1 slides__img"  /></li>
                 </ul>
                 <span class="content1__flexslider flexslider__text2">
                 <button class="step">STEP3</button>
@@ -103,7 +102,7 @@
         </div>
         <div class="content2">
            <span class="content2__h1">Meet a partner for your best holiday</span>
-           <span class="content2__block">
+           <span class="content2__block content2__block__first">
             <a href="#" class="content2__img content2__img1"></a>
                 <a href="#" class="content2__img__h1">Bradley Hunter</a>
                 <span class="content2__img__text">Based in Chicago, I love playing tennis and load music.</span>
@@ -154,16 +153,16 @@
             </div>
             <div class="grid__images">
             <!--<div class="grid">-->
+            
             <script id="tmpl" type="text/template">
               <div class="grid">
-              <% for (i=0; i<10; i++) { %>
-              <div class="grid-item "><img  class="grid__img" src="<%= hits[i].previewURL%>">
+              <% for (i=0; i<7; i++) {  %>
+              <div class="grid-item "><img  class="grid__img grid__img__height" src="<%= hits[i].previewURL%>"></div>
                
-                </div>
-             
               <%}%>
               </div>
             </script>
+            
             </div>
             <!--<span class="content3__img__h1"><%= hits[i].tags %></span>-->
             <span class="content3__h1">Discover holiday activity ideas</span>
