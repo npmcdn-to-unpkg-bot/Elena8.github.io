@@ -48,7 +48,7 @@ $(window).load(function(){
   // options
   itemSelector: '.grid-item',
   columnWidth: '.grid-item'
-       
+   debugger   
 
 }).imagesLoaded(function() {
 $('.grid').masonry('reload');
