@@ -15,11 +15,11 @@ $(function () {
                     console.log(data.hits.length);
                 if(data.hits.length>0) {
                     
-                    $(".images").remove();
+                    $(".grid").remove();
                 }
                 html = $('#tmpl').html();
                 content = tmpl(html, data);
-                $('body').append(content);
+                $('.grid').append(content);
           
             }
         });
@@ -31,6 +31,14 @@ $(function () {
             callback();
         }
     });
+    
+    var $grid = $('.grid').imagesLoaded( function() {
+  $grid.masonry({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    columnWidth: '.grid-item'
+  }); 
+});
 
 });
    
