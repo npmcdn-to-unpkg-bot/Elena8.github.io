@@ -291,3 +291,20 @@ html[xmlns] .flexslider .slides {
   }
 }
 */
+
+@media screen and (min-width: 940px) {
+    .flexslider {
+        //width: 300px;
+        position: relative;
+    //width: 300px;
+    
+    }
+    
+    .flexslider:nth-child(1) {
+        left: -9px
+    }
+    
+    .flexslider:nth-child(3) {
+        left: 4px
+    }
+}
