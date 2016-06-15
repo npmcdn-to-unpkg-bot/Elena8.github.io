@@ -1,6 +1,7 @@
 $(window).load(function(){
 //$(function() {
     'use strict';
+    var $grid;
     function callback() {
         var query = $('#query').val();
         $.ajax({
@@ -40,8 +41,7 @@ $(window).load(function(){
             callback();
         }
     });
-    
-    var $grid = $('.grid').imagesLoaded( function() {
+    $grid = $('.grid').imagesLoaded( function() {
         console.log('masonry');
         $grid.masonry({
             

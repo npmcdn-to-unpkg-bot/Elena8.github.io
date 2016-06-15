@@ -44,18 +44,21 @@
                 border: 2px solid transparent;
                 background: transparent;
                 border-radius: 20px;
+                
                 color: white;
                 font: 14px 'Montserrat Bold', arial;
+                
             }
             
             .sign__up__active {
                 margin-left: -3%;
                 border: 2px solid white;
+                
             }
             
             .sign__up:hover {
                 border: 2px solid white;
-               
+                
             }
             
         
@@ -118,7 +121,6 @@
        
         .content1__h1 {
             display: inline-block;
-            //width: 100%;
             margin:30px 10px;
             margin-bottom: 11px;
             font: 22px 'Montserrat Bold', arial;
@@ -127,11 +129,8 @@
         
         .content1__img {
             display: inline-block;
-            //width: 100%;
             width: 305px;
             height: 242px;
-            //margin-top: 10px;
-            //margin: 5px 7px;
             margin: 0px 8.5px;
             margin-top: 5px;
             margin-bottom: 4px;
@@ -234,15 +233,11 @@
         
         .content2__img {
             display: inline-block;
-            //text-align: center;
-            //margin: 0 31.8%;
             margin-left: 33%;
             width: 130px;
             height: 125px;
             margin-top: 14px;
             margin-bottom: 11px;
-            //margin-top: 10px;
-            //margin: 5px 7px;
             background:transparent url(../img/sprite_mobil.png) no-repeat;
         }
         
@@ -250,17 +245,12 @@
              background-position:-20px -1325px
         }
         .content2__img3 {
-            /*margin-left: 32.4%;
-            margin-top: 15px;*/
             margin-bottom: 11px;
             margin-top: 10.4px;
             margin-left: 32.2%;
             background-position:-160px -1330px
         }
         .content2__img2 {
-            /*margin-bottom: 11px;
-            margin-top: 10.4px;
-            margin-left: 32.2%;*/
             margin-left: 32.4%;
             margin-top: 15px;
             background-position:-18px -1455px
@@ -276,7 +266,6 @@
             display: inline-block;
             margin: -1px 59px;
             text-align: center;
-            //margin-bottom: 10px;
             text-decoration: none;
             width: 200px;
             font: 14px 'Montserrat Bold', arial;
@@ -327,16 +316,7 @@
         
     }
 
-/*.content2:after {                  
-                content: ".";
-                display: block;
-                height: 27px;
-                clear: both;
-                visibility: hidden;
-            }*/
 
-   
-    
     .content3 {
         width: 100%;
         .content3__h1 {
@@ -357,8 +337,6 @@
             width: 300px;
             height: 120px;
             border-radius: 4px;
-            //(../img/sprite_mobil.png) no-repeat;
-            
         }
         
         .content3__img1 {
@@ -376,7 +354,6 @@
         .content3__img3 {
             background:transparent url(../img/ideas_3.png)center no-repeat;
             background-size: cover;
-             //background-position:-5px -1975px;
             .content3__img__h1 {
                 text-align: left;
                 margin-top: 30.5px;
@@ -415,7 +392,6 @@
             background:transparent url(../img/ideas_6.png)center no-repeat;
             background-size: cover;
             .content3__img__h1 {
-                
                 margin-top: 47px;
                 margin-left: 10%;
             }
@@ -438,8 +414,6 @@
         .grid {
             
             width: 100%;
-            
-
             .grid-item,
             .grid-item-w2 { 
                 float: left;
@@ -462,10 +436,7 @@
                     font: 20px 'Montserrat Bold', arial;
                     color: white;
             }
-                
-                
-                
-            }
+        }
             
             
             
@@ -590,17 +561,15 @@
     }
 
 @media screen and (min-width: 768px) {
-//.wrapper {
     .wrapper {
-    width: 768px;
-  }
+        width: 768px;
+    }
     
         header {
-            width: 768px;
-            //margin: 0 auto;            
+            width: 768px;           
             height: 700px;
             text-align: center;
-            //background: transparent url(../img/header.png) top center no-repeat;
+            
             .header__log {
                 position: absolute;
                 right: 10%;
@@ -669,15 +638,8 @@
             height: 400px;
             text-align: center;
             margin-left: 0.1%;
-            /*.content1__flexslider {
-                position: relative;
-                z-index: 10;
-                top: 230px;}*/
-                //////////////////////////
-                
                 
             .flexslider {
-                //width: 300px;
                 .slides {
                     .slides__img {
                         display: inline-block;
@@ -685,28 +647,22 @@
                         height: 400px;
                         margin-top: 10px;
                         margin: 5px 7px;
-                        //background:transparent url(../img/sprite_tabl.png) no-repeat;
                         background-size: cover;
                         
                     }
                     
                     .slides__img1 {
                         background:transparent url(../img/step_1.png)top center no-repeat;
-                        //background-position: -5px -3px;
                     }
                     .slides__img2 {
                         background:transparent url(../img/step_2.png)top center no-repeat;
-                        //background-position: -258px -3px;
                         
                     }
                     .slides__img3 {
                         background:transparent url(../img/step_3.png)top center no-repeat;
-                        //background-position: -505px -3px;
                     }
                 }
-            //}
-        
-                //////////////////////////
+           
             .content1__flexslider{
             .step {
                 display: inline-block;
@@ -714,8 +670,6 @@
                 z-index: 10;
                 top: 247px;
                 left: -64px;
-                //margin-left: 20px;
-                /*margin-top: 97px;*/
                 height: 19px;
                 width: 70px;
                 border: 1px solid #ff4e50;
@@ -750,7 +704,6 @@
             .content1__img__text {
                 display: inline-block;
                 position: relative;
-                //top:50px;
                 z-index: 10;
                 top: 280px;
                 letter-spacing: 0.6px;
@@ -770,9 +723,7 @@
     }
     
     .content1:after {                  
-                
                 height: 40px;
-                
             }
     
     .content2 {
@@ -850,16 +801,13 @@
        
     }
          .content2__see-others {
-    
-    /* text-align: center; */
-    position: relative;
-    left: -110px;
-    padding-left: 7px;
-    margin: 15px 10px;
-    /* margin-left: 0; */
-    height: 40px;
-    width: 193px;
-            }
+            position: relative;
+            left: -110px;
+            padding-left: 7px;
+            margin: 15px 10px;
+            height: 40px;
+            width: 193px;
+        }
     }
     
 .content3 {
@@ -949,9 +897,6 @@
                 margin: 0;
                 margin-top: 0px;
                 margin-bottom: 21px;
-               /* width: 236px;
-                height: 310px;*/
-            
                 width: 490px;
                 height: 310px;
                 float: left;
@@ -1008,17 +953,16 @@
     }
     footer {
         .footer__h2 {
-            
             margin: 0;
-    position: relative;
-    top: -33px;
-    left: -16.7%;
+            position: relative;
+            top: -33px;
+            left: -16.7%;
         }
         
         .footer__h1 {
             margin-left: 5%;
             position: relative;
-    top: -33px;
+            top: -33px;
         }
         
         .menu {
@@ -1026,7 +970,7 @@
             margin: 0;
             position: relative;
             top: 68px;
-    left: -31.2%;
+            left: -31.2%;
             
             .menu__item {
                 float: none;
@@ -1035,27 +979,27 @@
         }
         
          .footer__h3 {
-             position: relative;
-    margin: 0;
-    top: -37px;
-    right: -2.3%;
-    font-size: 10px;
+            position: relative;
+            margin: 0;
+            top: -37px;
+            right: -2.3%;
+            font-size: 10px;
     
             }
         
         .footer__logo {
             float: right;
-    margin: 0;
-    position: relative;
-    top: -45px;
-    right: 5.2%;
+            margin: 0;
+            position: relative;
+            top: -45px;
+            right: 5.2%;
     
            }
     }
-   // }
+   
 }
 
-//@media(min-width:769px){
+
 @media all and (min-width: 940px) {
     .wrapper {
         width: 1440px;
@@ -1069,6 +1013,7 @@
         }
         
         .header__log {
+            
             float: right;
             top: 1px;
             left: 990px;
@@ -1135,19 +1080,16 @@
                 .content1__img__h1 {
                     text-align: left;
                     left: -65px;
-                    //top: 282px;
                     font-size: 22px; 
                 }
                     
                 .content1__img2__h1 {
                     left: -63px;
-                    //top: 270.5px;
                     width: 210px;
-    //font-size: 22px;
+    
                 }
                     
                 .content1__img__text {
-                  // top: 300px;
                    left: 10.5px;
                    width: 280px;
     
