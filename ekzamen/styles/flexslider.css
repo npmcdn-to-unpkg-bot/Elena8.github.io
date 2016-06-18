@@ -128,6 +128,7 @@ html[xmlns] .flexslider .slides {
 .flex-direction-nav a {
   text-decoration: none;
   display: block;
+   
   width: 40px;
   height: 40px;
   margin: -20px 0 0;
@@ -149,33 +150,43 @@ html[xmlns] .flexslider .slides {
   font-family: "flexslider-icon";
   font-size: 40px;
   display: inline-block;
+    
   content: '\f001';
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 .flex-direction-nav a.flex-next:before {
+    
   content: '\f002';
 }
 .flex-direction-nav .flex-prev {
   left: -50px;
+    filter: alpha(opacity=0);
 }
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
+    filter: alpha(opacity=0);
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
   left: 10px;
+    filter: alpha(opacity=40);
+    color: darkgray;
 }
 .flexslider:hover .flex-direction-nav .flex-prev:hover {
   opacity: 1;
+    filter: alpha(opacity=40);
 }
 .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;
   right: 10px;
+    filter: alpha(opacity=40);
+    color: darkgray;
 }
 .flexslider:hover .flex-direction-nav .flex-next:hover {
   opacity: 1;
+    filter: alpha(opacity=40);
 }
 .flex-direction-nav .flex-disabled {
   opacity: 0!important;
@@ -292,19 +303,48 @@ html[xmlns] .flexslider .slides {
 }
 */
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 320px) {
     .flexslider {
-        //width: 300px;
+        width: 300px;
         position: relative;
-    //width: 300px;
+        margin-bottom: 38px;
     
     }
     
-    .flexslider:nth-child(1) {
+    .flexslider:nth-child(2) {
+         margin-bottom: 11px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .flexslider {
+        width: 236px;
+        position: relative;
+       
+    
+    }
+    
+    .flexslider:nth-child(2) {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+}
+
+
+@media screen and (min-width: 940px) {
+    .flexslider {
+       width: 300px;
+        position: relative;
+    
+    
+    }
+    
+    /*.flexslider:nth-child(1) {
         left: -9px
     }
     
     .flexslider:nth-child(3) {
         left: 4px
-    }
+    }*/
 }

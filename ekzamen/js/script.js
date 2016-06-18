@@ -1,24 +1,24 @@
 $(window).load(function(){
 //$(function() {
     'use strict';
-    var $grid;
+    var key="2630817-b95f50d1e0fc2b68ed1f4d734";
+                
+    
     function callback() {
         var query = $('#query').val();
+        var URL = "https://pixabay.com/api/?key="+key+"&q="+query+"&image_type=photo&callback=?";
         $.ajax({
-            url: "https://pixabay.com/api/",
-            data: {
-                key: "2630817-b95f50d1e0fc2b68ed1f4d734",
-                q: query
-            },
+            url:URL,
+            dataType: "jsonp",
             success: function (data) {
-                console.log(data);
+                //console.log(data);
                 var html,
                     content;
-                    console.log(data.hits.length);
+                    //console.log(data.hits.length);
                 if(data.hits.length>0) {
                     
                     $(".grid").remove();
-                    console.log(data.hits.length);
+                    //console.log(data.hits.length);
                 }
                 $('.content3__images').css('display','none');
                 html = $('#tmpl').html();
@@ -41,21 +41,28 @@ $(window).load(function(){
             callback();
         }
     });
-    $grid = $('.grid').imagesLoaded( function() {
-        console.log('masonry');
-        $grid.masonry({
-            
-            // options
-  itemSelector: '.grid-item',
+    
+    $('.flexslider').flexslider({
+    animation: "slide"
+  }); 
+    
+   
+    
+    // or with jQuery
+    // initialize Masonry
+    var $grid = $('.grid');
+    // layout Masonry again after all images have loaded
+    $grid.imagesLoaded( function() {
+      $grid.masonry({
+          itemSelector: '.grid-item',
   columnWidth: '.grid-item',
-        percentPosition: true});
+        percentPosition: true
+      });
     });
   
 
 	   
     
-    $('.flexslider').flexslider({
-    animation: "slide"
-  });
+    
    
 });
