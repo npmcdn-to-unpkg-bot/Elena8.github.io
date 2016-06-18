@@ -13,7 +13,8 @@ define(
         self.elements = {
             input: $('.item--value'),
             addBtn: $('.item--add'),
-            listContainer: $('.item__list')
+            listContainer: $('.item__list'),
+            editBtn: $('.item--edit')
         };
         
         self.renderList(model.data); 
@@ -23,8 +24,19 @@ define(
         var list = tmpl($('#list__template').html(), {data:data});
         self.elements.listContainer.html(list);
     };
+                
+    self.renderChoosenItem = function(indexOfActive) {
+                    $('.list li:nth-of-type('+(+indexOfActive+1)+')');
+                };
+
+    self.renderInputItem=function(data,index){
+                    if(data[index]+""=='undefined')return;
+                    self.elements.input.val(data[index]+"");
+                };
+
+                
     
     init();
     
-}
+};
 });

@@ -3,7 +3,7 @@ define(
 	['jquery'],
 	function() {
 
-		return function Model(data) {
+return function Model(data) {
     var self = this;
     self.data = data;// 
     
@@ -27,5 +27,15 @@ define(
         self.data.splice (index, 1);
         return self.data;
     };
+     self.chooseItem = function(index) {             
+		       var indexOfActive = index;
+		    };      
+            
+    self.editItem = function(editItem){            
+        if (editItem.length === 0) {
+		            return;
+		        }
+        self.data[self.indexOfActive] = editItem;
+		    };
 }
 });

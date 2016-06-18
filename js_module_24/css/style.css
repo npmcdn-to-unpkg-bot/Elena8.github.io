@@ -21,7 +21,8 @@ body {
     border: 2px solid #8B8989; 
 }
 
-.item--add {
+.item--add,
+.item--edit {
     border-radius: 10px;
     background: #8B8989;
     border: 2px solid #8B8989; 

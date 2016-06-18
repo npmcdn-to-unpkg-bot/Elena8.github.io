@@ -23,13 +23,14 @@
         <div class="controlls">
             <input type="text" class="item--value">
             <button class="item--add">Add</button>
+            <button class="item--edit">Edit</button>
         </div>
     </div>
     </script>
     
     <script type="text/templeate" id="list__template">
       <% for (var i = 0; i < data.length; i++) { %>
-        <li> <%= data[i] %><span data-value="<%= data[i] %>" class="item__delete">  X</span></li>
+        <li data-index="<%= i %>" class="list-item"> <%= data[i] %><span data-value="<%= data[i] %>" class="item__delete">  X</span></li>
             
       <% }; %>
     </script>
