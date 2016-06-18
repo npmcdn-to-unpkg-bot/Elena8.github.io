@@ -34,3 +34,7 @@ body {
     color: red;
     
 }
+
+.list-item:hover {
+    color:darkred;
+}
